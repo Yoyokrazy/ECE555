@@ -1,0 +1,46 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xACT                 ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+LAYOUT NAME:              INV
+RULE FILE NAME:           _rcxControl_calibre_asap7.rul_
+CREATION TIME:            Sun Dec  4 16:39:21 2022
+
+UNITS:                    Resistance   = ohm
+                          Capacitance  = farad
+                          Time         = ns
+
+
+---------------------------------------------------------------------------------
+CELL NAME:                INV
+
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+4                     0.0    1.9637e-16       40.7933            0.0  OUT
+            - Coupled nets
+               IN:9,IN:3,IN:3
+            - Intrinsic capacitance
+                1.1627e-16
+            - Coupled capacitance
+                3.4281e-18   netid: IN:9
+                1.5113e-17   netid: IN:3
+                6.1565e-17   netid: IN:3
+
+
+3                     0.0    2.0781e-16       38.5477            0.0  IN
+            - Coupled nets
+               OUT:11,OUT:8,OUT:7
+            - Intrinsic capacitance
+                1.2771e-16
+            - Coupled capacitance
+                3.4281e-18   netid: OUT:11
+                1.5113e-17   netid: OUT:8
+                6.1565e-17   netid: OUT:7
+
+

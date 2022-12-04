@@ -13,18 +13,12 @@
 
 REPORT FILE NAME:         AND2.lvs.report
 LAYOUT NAME:              svdb/AND2.sp ('AND2')
-SOURCE NAME:              /filespace/s/seath/ECE555/lvs/AND2.src.net ('AND2')
-RULE FILE:                /filespace/s/seath/ECE555/lvs/_lvsRules_calibre_asap7.rul_
+SOURCE NAME:              /filespace/m/mdlively/ECE555/lvs/AND2.src.net ('AND2')
+RULE FILE:                /filespace/m/mdlively/ECE555/lvs/_lvsRules_calibre_asap7.rul_
 RULE FILE TITLE:          LVS Rule File for ASAP7 PDK
-<<<<<<< HEAD
-CREATION TIME:            Sun Dec  4 14:06:55 2022
+CREATION TIME:            Sun Dec  4 16:51:22 2022
 CURRENT DIRECTORY:        /filespace/m/mdlively/ECE555/lvs
 USER NAME:                mdlively
-=======
-CREATION TIME:            Tue Nov 15 16:15:54 2022
-CURRENT DIRECTORY:        /filespace/s/seath/ECE555/lvs
-USER NAME:                seath
->>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
 CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
 
 
@@ -40,10 +34,6 @@ CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
                      #           ###################               
 
 
-<<<<<<< HEAD
-=======
-  Error:    Connectivity errors.
->>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
 
 
 **************************************************************************************************************
@@ -174,10 +164,6 @@ o LVS Setup:
                      #           ###################               
 
 
-<<<<<<< HEAD
-=======
-  Error:    Connectivity errors.
->>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
 
 LAYOUT CELL NAME:         AND2
 SOURCE CELL NAME:         AND2
@@ -214,108 +200,6 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
  Total Inst:         2         2
 
 
-<<<<<<< HEAD
-=======
-
-**************************************************************************************************************
-                                 INCORRECT OBJECTS
-**************************************************************************************************************
-
-
-LEGEND:
--------
-
-  ne  = Naming Error (same layout name found in source
-        circuit, but object was matched otherwise).
-
-
-**************************************************************************************************************
-                                   INCORRECT NETS
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  1    Net VDD                                                   VDD
-       --- 3 Connections On This Net ---                         --- 3 Connections On This Net ---
-       --------------------------                                --------------------------
-       
-       (_nand2v):sup1                                            ** missing connection **
-         M4(0.125,0.243):b
-         M4(0.125,0.243):d
-         M3(0.071,0.243):b
-         M3(0.071,0.243):s
-       
-       
-       ** missing connection **                                  (_nand2v):sup2
-                                                                   XNAND/MM0:b
-                                                                   XNAND/Mnmos:b
-                                                                   XNAND/Mnmos:s
-       
-
---------------------------------------------------------------------------------------------------------------
-
-  2    Net VSS                                                   VSS
-       --- 3 Connections On This Net ---                         --- 3 Connections On This Net ---
-       --------------------------                                --------------------------
-       
-       (_nand2v):sup2                                            ** missing connection **
-         M1(0.125,0.027):b
-         M0(0.071,0.027):b
-         M0(0.071,0.027):s
-       
-       
-       ** missing connection **                                  (_nand2v):sup1
-                                                                   XNAND/Mpmos:b
-                                                                   XNAND/Mpmos:s
-                                                                   XNAND/MM1:b
-                                                                   XNAND/MM1:s
-       
-
-
-**************************************************************************************************************
-                                 INCORRECT INSTANCES
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  3    M1(0.125,0.027)  MN(NMOS_RVT)                             XNAND/Mnmos  MN(NMOS_RVT)
-         g: IN<1>                                                  g: IN<1>
-         d: 5                                                      ** net1 **
-         b: VSS                                                    ** VSS **
-         ** VDD **                                                 d: VDD
-         ** VDD **                                                 b: VDD
-
---------------------------------------------------------------------------------------------------------------
-
-  4    M0(0.071,0.027)  MN(NMOS_RVT)                             XNAND/MM0  MN(NMOS_RVT)
-         g: IN<0>                                                  g: IN<0>
-         d: VSS                                                    ** VSS **
-         b: VSS                                                    ** VSS **
-         ** 5 **                                                   d: net1
-         ** VDD **                                                 b: VDD
-
---------------------------------------------------------------------------------------------------------------
-
-  5    M4(0.125,0.243)  MP(PMOS_RVT)                             XNAND/MM1  MP(PMOS_RVT)
-         g: IN<1>                                                  g: IN<1>
-         s: 5                                                      s: net1
-         d: VDD                                                    ** VDD **
-         b: VDD                                                    ** VDD **
-         ** VSS **                                                 d: VSS
-         ** VSS **                                                 b: VSS
-
---------------------------------------------------------------------------------------------------------------
-
-  6    M3(0.071,0.243)  MP(PMOS_RVT)                             XNAND/Mpmos  MP(PMOS_RVT)
-         g: IN<0>                                                  g: IN<0>
-         s: 5                                                      s: net1
-         d: VDD                                                    ** VDD **
-         b: VDD                                                    ** VDD **
-         ** VSS **                                                 d: VSS
-         ** VSS **                                                 b: VSS
-
-
->>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
 
 **************************************************************************************************************
                                INFORMATION AND WARNINGS
@@ -336,40 +220,8 @@ DISC#  LAYOUT NAME                                               SOURCE NAME
 
 
 o Initial Correspondence Points:
-<<<<<<< HEAD
 
    Ports:        vdd VSS IN<0> IN<1> OUT
-=======
-
-   Ports:        vdd VSS IN<0> IN<1> OUT
-
-
-**************************************************************************************************************
-                             DETAILED INSTANCE CONNECTIONS
-
-       LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-          (This section contains detailed information about connections of
-           matched instances that are involved in net discrepancies).
-
---------------------------------------------------------------------------------------------------------------
-
-       (_nand2v)                                                 (_nand2v)
-         in1: IN<0>                                                in2: IN<0>
-         in2: IN<1>                                                in1: IN<1>
-         out: 5                                                    out: net1
-         sup1: VDD                                                 ** VDD **
-         sup2: VSS                                                 ** VSS **
-         ** VSS **                                                 sup1: VSS
-         ** VDD **                                                 sup2: VDD
-
-       Devices: 
-         M1(0.125,0.027)  MN(NMOS_RVT)                             XNAND/Mnmos  MN(NMOS_RVT) 
-         M0(0.071,0.027)  MN(NMOS_RVT)                             XNAND/MM0  MN(NMOS_RVT) 
-         M4(0.125,0.243)  MP(PMOS_RVT)                             XNAND/MM1  MP(PMOS_RVT) 
-         M3(0.071,0.243)  MP(PMOS_RVT)                             XNAND/Mpmos  MP(PMOS_RVT) 
->>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
 
 
 **************************************************************************************************************

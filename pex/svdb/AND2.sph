@@ -1,0 +1,21 @@
+# SVDB: Source Placement Hierarchy (sph) (File format 1)
+# SVDB: Layout Primary AND2
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Sun Dec  4 16:53:51 2022
+# SVDB: GDSII -0 (none) (none)
+# SVDB: SNL -0 (none) (none)
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: End of header.
+% INV 4
+MM0  MN  4
+MM1  MP  4
+% NAND2 5
+MM0  MN  4
+Mnmos  MN  4
+MM1  MP  4
+Mpmos  MP  4
+% AND2 5
+XNAND  NAND2  5
+XINV  INV  4

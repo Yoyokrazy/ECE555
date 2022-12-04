@@ -1,0 +1,13 @@
+# SVDB: Instance Cross Reference (ixf) (File format 1)
+# SVDB: Layout Primary INV
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Sun Dec  4 16:39:14 2022
+# SVDB: GDSII -0 (none) (none)
+# SVDB: SNL -0 (none) (none)
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: End of header.
+% INV 4 INV 4
+4 M0(0.071,0.162) 12 MM1
+20 M1(0.071,0.027) 4 MM0

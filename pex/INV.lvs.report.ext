@@ -1,0 +1,22 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         INV.lvs.report.ext
+LAYOUT NAME:              INV.calibre.db ('INV')
+CREATION TIME:            Sun Dec  4 16:39:15 2022
+CURRENT DIRECTORY:        /filespace/m/mdlively/ECE555/pex
+USER NAME:                mdlively
+CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
+
+
+
+WARNING: Cannot enable LVS PUSH DEVICES because pin location information was requested.
+

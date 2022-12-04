@@ -1,0 +1,18 @@
+# SVDB: Net Cross Reference (nxf) (File format 1)
+# SVDB: Layout Primary AND2
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Sun Dec  4 16:53:51 2022
+# SVDB: GDSII -0 (none) (none)
+# SVDB: SNL -0 (none) (none)
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: End of header.
+% AND2 5 AND2 5
+11 VDD 29 VDD
+4 VSS 36 VSS
+18 IN<0> 4 IN<0>
+27 IN<1> 13 IN<1>
+36 OUT 22 OUT
+43 5 43 NET1
+48 7 120 XNAND/NET1

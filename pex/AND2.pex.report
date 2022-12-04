@@ -1,0 +1,114 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xACT                 ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+LAYOUT NAME:              AND2
+RULE FILE NAME:           _rcxControl_calibre_asap7.rul_
+CREATION TIME:            Sun Dec  4 16:54:00 2022
+
+UNITS:                    Resistance   = ohm
+                          Capacitance  = farad
+                          Time         = ns
+
+
+---------------------------------------------------------------------------------
+CELL NAME:                AND2
+
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+4                     0.0    2.0418e-16       70.2891            0.0  IN<1>
+            - Coupled nets
+               IN<0>:3,IN<0>:4,NET1:11,NET1:15,NET1:4,NET1:14,NET1:18,NET1:4,NET1:10,NET1:13,NET1:13,NET1:10,XNAND/NET1:3
+            - Intrinsic capacitance
+                6.0663e-17
+            - Coupled capacitance
+                7.7854e-18   netid: IN<0>:3
+                1.0738e-17   netid: IN<0>:4
+                1.1164e-17   netid: NET1:11
+                3.6868e-19   netid: NET1:15
+                5.3969e-19   netid: NET1:4
+                6.0045e-19   netid: NET1:14
+                7.5882e-19   netid: NET1:18
+                8.7305e-19   netid: NET1:4
+                1.1676e-18   netid: NET1:10
+                1.2959e-18   netid: NET1:13
+                3.9308e-18   netid: NET1:13
+                6.0016e-17   netid: NET1:10
+                4.4276e-17   netid: XNAND/NET1:3
+
+
+3                     0.0     1.941e-16       46.5618            0.0  IN<0>
+            - Coupled nets
+               IN<1>:3,IN<1>:4,NET1:11,NET1:3,NET1:12,NET1:10,XNAND/NET1:3
+            - Intrinsic capacitance
+                1.0372e-16
+            - Coupled capacitance
+                7.7854e-18   netid: IN<1>:3
+                1.0738e-17   netid: IN<1>:4
+                 1.152e-17   netid: NET1:11
+                1.3018e-18   netid: NET1:3
+                 1.371e-18   netid: NET1:12
+                1.5293e-17   netid: NET1:10
+                4.2368e-17   netid: XNAND/NET1:3
+
+
+7                     0.0    1.0378e-16       89.2529            0.0  XNAND/NET1
+            - Coupled nets
+               IN<0>:3,IN<1>:3,NET1:10,NET1:4
+            - Intrinsic capacitance
+                1.1153e-17
+            - Coupled capacitance
+                4.2368e-17   netid: IN<0>:3
+                4.4276e-17   netid: IN<1>:3
+                7.4947e-19   netid: NET1:10
+                5.2301e-18   netid: NET1:4
+
+
+6                     0.0    1.9099e-16       41.3960            0.0  OUT
+            - Coupled nets
+               NET1:22,NET1:1,NET1:22,NET1:9,NET1:9
+            - Intrinsic capacitance
+                1.1193e-16
+            - Coupled capacitance
+                2.0988e-18   netid: NET1:22
+                2.0173e-18   netid: NET1:1
+                2.0705e-18   netid: NET1:22
+                1.0752e-17   netid: NET1:9
+                6.2122e-17   netid: NET1:9
+
+
+5                     0.0    3.8839e-16       50.2690            0.0  NET1
+            - Coupled nets
+               IN<0>:3,IN<0>:3,IN<0>:4,IN<0>:3,IN<1>:3,IN<1>:3,IN<1>:1,IN<1>:4,IN<1>:4,IN<1>:3,IN<1>:1,IN<1>:1,IN<1>:4,IN<1>:3,OUT:7,OUT:7,OUT:11,OUT:8,OUT:7,XNAND/NET1:1,XNAND/NET1:1
+            - Intrinsic capacitance
+                1.9315e-16
+            - Coupled capacitance
+                 1.152e-17   netid: IN<0>:3
+                1.3018e-18   netid: IN<0>:3
+                 1.371e-18   netid: IN<0>:4
+                1.5293e-17   netid: IN<0>:3
+                1.1164e-17   netid: IN<1>:3
+                3.6868e-19   netid: IN<1>:3
+                5.3969e-19   netid: IN<1>:1
+                6.0045e-19   netid: IN<1>:4
+                7.5882e-19   netid: IN<1>:4
+                8.7305e-19   netid: IN<1>:3
+                1.1676e-18   netid: IN<1>:1
+                1.2959e-18   netid: IN<1>:1
+                3.9308e-18   netid: IN<1>:4
+                6.0016e-17   netid: IN<1>:3
+                2.0988e-18   netid: OUT:7
+                2.0173e-18   netid: OUT:7
+                2.0705e-18   netid: OUT:11
+                1.0752e-17   netid: OUT:8
+                6.2122e-17   netid: OUT:7
+                7.4947e-19   netid: XNAND/NET1:1
+                5.2301e-18   netid: XNAND/NET1:1
+
+
