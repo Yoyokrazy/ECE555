@@ -1,0 +1,26 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         AND2.lvs.report.ext
+LAYOUT NAME:              AND2.calibre.db ('AND2')
+<<<<<<< HEAD
+CREATION TIME:            Sun Dec  4 14:06:55 2022
+CURRENT DIRECTORY:        /filespace/m/mdlively/ECE555/lvs
+USER NAME:                mdlively
+=======
+CREATION TIME:            Tue Nov 15 16:15:53 2022
+CURRENT DIRECTORY:        /filespace/s/seath/ECE555/lvs
+USER NAME:                seath
+>>>>>>> 55ac8c2f7462628f48febf49438c341bedd9a814
+CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
+
+
+
