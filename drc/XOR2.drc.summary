@@ -3,21 +3,21 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Dec  6 14:41:44 2022
+Execution Date/Time:       Tue Dec  6 14:02:28 2022
 Calibre Version:           v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
 Rule File Pathname:        /filespace/m/mdlively/ECE555/drc/_drcRules_calibre_asap7.rul_
 Rule File Title:           
 Layout System:             GDS
-Layout Path(s):            INV.calibre.db
-Layout Primary Cell:       INV
+Layout Path(s):            XOR2.calibre.db
+Layout Primary Cell:       XOR2
 Current Directory:         /filespace/m/mdlively/ECE555/drc
 User Name:                 mdlively
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
-DRC Results Database:      INV.drc.results (ASCII)
+DRC Results Database:      XOR2.drc.results (ASCII)
 Layout Depth:              ALL
 Text Depth:                PRIMARY
-Summary Report File:       INV.drc.summary (REPLACE)
+Summary Report File:       XOR2.drc.summary (REPLACE)
 Geometry Flagging:         ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
                            NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Excluded Cells:           
@@ -30,10 +30,10 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER GCUT ...... TOTAL Original Geometry Count = 4  (4)
-LAYER GATE ...... TOTAL Original Geometry Count = 3  (3)
+LAYER GCUT ...... TOTAL Original Geometry Count = 5  (5)
+LAYER GATE ...... TOTAL Original Geometry Count = 11 (11)
 LAYER SRAMDRC ... TOTAL Original Geometry Count = 0  (0)
-LAYER ACTIVE .... TOTAL Original Geometry Count = 2  (2)
+LAYER ACTIVE .... TOTAL Original Geometry Count = 4  (4)
 LAYER WELL ...... TOTAL Original Geometry Count = 1  (1)
 LAYER FIN ....... TOTAL Original Geometry Count = 12 (12)
 LAYER NSELECT ... TOTAL Original Geometry Count = 1  (1)
@@ -42,11 +42,11 @@ LAYER SLVT ...... TOTAL Original Geometry Count = 0  (0)
 LAYER LVT ....... TOTAL Original Geometry Count = 0  (0)
 LAYER SRAMVT .... TOTAL Original Geometry Count = 0  (0)
 LAYER DUMMY ..... TOTAL Original Geometry Count = 0  (0)
-LAYER SDT ....... TOTAL Original Geometry Count = 5  (5)
-LAYER LISD ...... TOTAL Original Geometry Count = 4  (4)
-LAYER LIG ....... TOTAL Original Geometry Count = 3  (3)
-LAYER V0 ........ TOTAL Original Geometry Count = 7  (7)
-LAYER M1 ........ TOTAL Original Geometry Count = 9  (9)
+LAYER SDT ....... TOTAL Original Geometry Count = 16 (16)
+LAYER LISD ...... TOTAL Original Geometry Count = 16 (16)
+LAYER LIG ....... TOTAL Original Geometry Count = 7  (7)
+LAYER V0 ........ TOTAL Original Geometry Count = 34 (34)
+LAYER M1 ........ TOTAL Original Geometry Count = 8  (8)
 LAYER M4 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M5 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER M6 ........ TOTAL Original Geometry Count = 0  (0)
@@ -110,7 +110,7 @@ RULECHECK SRAM.ACTIVE.A.2B ........... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.AUX.1 ............... TOTAL Result Count = 0 (0)
 RULECHECK SRAM.ACTIVE.AUX.2 .......... TOTAL Result Count = 0 (0)
 RULECHECK ACTIVE.AUX.3 ............... TOTAL Result Count = 0 (0)
-RULECHECK ACTIVE.LUP.1 ............... TOTAL Result Count = 1 (1)
+RULECHECK ACTIVE.LUP.1 ............... TOTAL Result Count = 2 (2)
 RULECHECK GCUT.W.1 ................... TOTAL Result Count = 0 (0)
 RULECHECK GCUT.ACTIVE.S.1 ............ TOTAL Result Count = 0 (0)
 RULECHECK GCUT.GATE.EX.1 ............. TOTAL Result Count = 0 (0)
@@ -405,13 +405,13 @@ RULECHECK V9.AUX.1 ................... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- RULECHECK RESULTS STATISTICS (BY CELL)
 ---
-CELL INV ..................... TOTAL Result Count = 1 (1)
-    RULECHECK ACTIVE.LUP.1 ... TOTAL Result Count = 1 (1)
+CELL XOR2 .................... TOTAL Result Count = 2 (2)
+    RULECHECK ACTIVE.LUP.1 ... TOTAL Result Count = 2 (2)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 52 (52)
+TOTAL Original Layer Geometries: 116 (116)
 TOTAL DRC RuleChecks Executed:   334
-TOTAL DRC Results Generated:     1 (1)
+TOTAL DRC Results Generated:     2 (2)

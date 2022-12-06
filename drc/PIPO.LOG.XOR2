@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 06/22/2022 16:16 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.26 
-Started at: 06-Dec-2022  14:41:44
+Started at: 06-Dec-2022  14:02:26
 User Name : mdlively
 Host Name : tux-113
 Directory : /filespace/m/mdlively/ECE555
@@ -10,32 +10,31 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/filespace/m/mdlively/ECE555/drc/INV.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.layermap
 INFO (XSTRM-217): Reading the object map file, /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.objectmap
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
 
 Summary of Options :
 library                                 ECE555
-strmFile                                /filespace/m/mdlively/ECE555/drc/INV.calibre.db
-topCell                                 INV
+strmFile                                /filespace/m/mdlively/ECE555/drc/XOR2.calibre.db
+topCell                                 XOR2
 view                                    layout
 runDir                                  /filespace/m/mdlively/ECE555/drc/
-logFile                                 PIPO.LOG.INV
-summaryFile                             PIPO.SUM.INV
+logFile                                 PIPO.LOG.XOR2
+summaryFile                             PIPO.SUM.XOR2
 layerMap                                /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.layermap
 objectMap                                /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.objectmap
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView ECE555/INV/layout as STRUCTURE INV.
+INFO (XSTRM-223): 1. Translating cellView ECE555/XOR2/layout as STRUCTURE XOR2.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
 	Array Instances:                        0
-	Polygons:                               0
+	Polygons:                               6
 	Paths:                                  0
-	Rectangles:                             53
+	Rectangles:                             111
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -51,9 +50,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   6
+	Text:                                   7
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.2s   User Time: 0.0s   CPU Time: 0.0s   Peak VM: 2712KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.7s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2712KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '0' warning(s) found.
