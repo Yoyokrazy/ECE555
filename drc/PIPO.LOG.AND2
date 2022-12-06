@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 06/22/2022 16:16 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.26 
-Started at: 04-Dec-2022  16:45:57
+Started at: 06-Dec-2022  15:06:13
 User Name : mdlively
 Host Name : tux-113
 Directory : /filespace/m/mdlively/ECE555
@@ -29,6 +29,7 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-223): 1. Translating cellView ECE555/AND2/layout as STRUCTURE AND2.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
@@ -55,5 +56,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2716KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 2724KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
