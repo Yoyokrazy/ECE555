@@ -20,7 +20,7 @@ mp2 out in vdd! vdd! pmos_sram w=54e-9 l=20e-9 nfin=2
 
 ** Library name: ECE555
 ** Cell name: AND2
-** View name: schematic
+** View name: layout
 .subckt AND2 in<0> in<1> out
 xnand in<0> in<1> net1 NAND2
 xinv net1 out INV

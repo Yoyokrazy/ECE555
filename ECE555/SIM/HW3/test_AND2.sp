@@ -7,7 +7,8 @@
 
 * --------------------------------------------------------------------------------
 * Design Under Test (DUT)
-.INCLUDE "AND2_FO4.sp"
+.INCLUDE "AND2_FO4_PEX.sp"
+* .INCLUDE "AND2.pex.netlist"
 
 * --------------------------------------------------------------------------------
 * Simulation Parameters
@@ -16,14 +17,10 @@
 
 * ------------------------------------------------------------------------------
 * Instantiate (DUT)
-* xdut in out AND2_FO4
-* v0 vdd gnd 0.9v
 v1 vdd! 0 0.9v
 v2 vss! 0 0v
-v3 in<0> gnd pwl(   0ns 0.9v    1ns 0.9v 1.025ns 0v     2ns 0v   2.025ns 0.9v       3ns 0.9v   3.025ns 0.9v     4ns 0.9v  4.025ns 0v   )
-v4 in<1> gnd pwl(   0ns 0.9v    1ns 0.9v 1.025ns 0v     2ns 0v   2.025ns 0.9v       3ns 0.9v   3.025ns 0v       4ns 0v    4.025ns 0.9v )
-
-* cout out gnd 1ff 
+v3 A gnd pwl(   0ns 0.9v    1ns 0.9v 1.025ns 0v     2ns 0v   2.025ns 0.9v       3ns 0.9v   3.025ns 0.9v     4ns 0.9v  4.025ns 0v   )
+v4 B gnd pwl(   0ns 0.9v    1ns 0.9v 1.025ns 0v     2ns 0v   2.025ns 0.9v       3ns 0.9v   3.025ns 0v       4ns 0v    4.025ns 0.9v )
 
 * --------------------------------------------------------------------------------
 * Transient analysis
