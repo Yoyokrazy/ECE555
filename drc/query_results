@@ -1,2 +1,4 @@
-mgc_rve_context_lcv "ECE555" "INV" "layout" 1
-mgc_rve_zoom -0.909 -0.986 1.091 1.014 0.7
+mgc_rve_context_lcv "ECE555" "MUX" "layout" 10000
+mgc_rve_show_layers 7 10 16
+me 2 0.017 0.631 0.037 0.631 0.0063 0.64 0.0477 0.64
+mgc_rve_zoom -0.0025 0.6291 0.0565 0.6419 1
