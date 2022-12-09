@@ -1,6 +1,4 @@
-mgc_rve_context_lcv "ECE555" "AND2" "layout" 4000
-mgc_rve_highlight_index 0 "M2" "#00000000FFFF"
-mgc_rve_property "w" 1.08e-07  "l" 2e-08  "nfin" 4  "model" "nmos_rvt"
-mgc_rve_layer "<ENCRYPTED_LAYER_38>"
-mr 0.287 0.027 0.307 0.135
-mgc_rve_zoom 0.28275 0.004 0.31125 0.158 1
+mgc_rve_context_lcv "ECE555" "ADD3" "layout" 10000
+mgc_rve_show_layers 7 99
+mp 4 0.615 0.004 0.635 0.004 0.635 1.311 0.615 1.311
+mgc_rve_zoom 0.6108 -0.276 0.6392 1.591 1
