@@ -1,38 +1,18 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "NEURON"
+  blockName "AND2"
   repList "auCdl schematic"
   stopList "auCdl"
   hierDelim "."
   netlistDir "/filespace/m/mdlively/ECE555/pex"
  )
 ( model
-( "ECE555/NOR2/schematic" "NOR2" )
-( "ECE555/MULTIPLIER/schematic" "MULTIPLIER" )
 ( "ECE555/NAND2/schematic" "NAND2" )
-( "ECE555/NEURON/schematic" "NEURON" )
-( "ECE555/ADD2/schematic" "ADD2" )
-( "ECE555/XOR2/schematic" "XOR2" )
 ( "ECE555/INV_2_4/schematic" "INV_2_4" )
-( "ECE555/MUX/schematic" "MUX" )
-( "ECE555/OR2/schematic" "OR2" )
-( "ECE555/ADD1/schematic" "ADD1" )
-( "ECE555/ADD3/schematic" "ADD3" )
-( "ECE555/INV/schematic" "INV" )
 ( "ECE555/AND2/schematic" "AND2" )
  )
-( "OR2" "ihnl/cds5/map" )
-( "ADD3" "ihnl/cds7/map" )
-( "ADD1" "ihnl/cds6/map" )
 ( "NAND2" "ihnl/cds0/map" )
 ( "INV_2_4" "ihnl/cds1/map" )
-( "NOR2" "ihnl/cds4/map" )
-( "MUX" "ihnl/cds10/map" )
-( "XOR2" "ihnl/cds3/map" )
-( "NEURON" "ihnl/cds12/map" )
 ( "AND2" "ihnl/cds2/map" )
-( "MULTIPLIER" "ihnl/cds11/map" )
-( "ADD2" "ihnl/cds8/map" )
-( "INV" "ihnl/cds9/map" )
  )

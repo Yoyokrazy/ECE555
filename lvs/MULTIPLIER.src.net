@@ -1,0 +1,89 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: MULTIPLIER
+* View Name:     schematic
+* Netlisted on:  Dec 10 15:02:37 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+Mnmos OUT IN<1> net1 VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos OUT IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_2_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_2_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    AND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+XNAND IN<0> IN<1> net1 VDD VSS / NAND2
+XI0 net1 OUT VDD VSS / INV_2_4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    XOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+MMM12 VDD xor OUT VDD pmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM0 net045 IN<0> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM9 xor net045 VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM1 net045 IN<1> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM10 xor IN<1> net059 VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM11 net059 IN<0> VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM13 VSS xor OUT VSS nmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM4 net049 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM6 xor net045 net049 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM2 net045 IN<1> net060 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM5 net049 IN<1> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM3 net060 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    MULTIPLIER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MULTIPLIER VDD VSS W<1> W<0> X<1> X<0> Y<1> Y<0>
+*.PININFO W<1>:I W<0>:I X<1>:I X<0>:I Y<1>:O Y<0>:O VDD:B VSS:B
+XI14 net1 Y<0> Y<1> VDD VSS / AND2
+XI13 X<0> W<0> Y<0> VDD VSS / AND2
+XI15 X<1> W<1> net1 VDD VSS / XOR2
+.ENDS
+

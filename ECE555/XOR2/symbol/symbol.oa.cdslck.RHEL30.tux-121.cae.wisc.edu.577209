@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mdlively
+HostName                       tux-121.cae.wisc.edu
+ProcessIdentifier              577209
+ProcessCreationTime_UTC        1670607200
+ProcessCreationTime_Readable   Fri Dec  9 11:33:20 2022 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /filespace/m/mdlively/ECE555/ECE555/XOR2/symbol/symbol.oa.cdslck
+TimeEditLocked                 Fri Dec  9 13:40:52 2022 CST

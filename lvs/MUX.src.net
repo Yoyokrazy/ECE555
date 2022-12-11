@@ -1,0 +1,80 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: MUX
+* View Name:     schematic
+* Netlisted on:  Dec 10 15:05:12 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+Mnmos OUT IN<1> net1 VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos OUT IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_2_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_2_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    AND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+XNAND IN<0> IN<1> net1 VDD VSS / NAND2
+XI0 net1 OUT VDD VSS / INV_2_4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=81.0n l=20n nfin=3
+MM1 OUT IN VDD VDD pmos_rvt w=81.0n l=20n nfin=3
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MUX IN<2> IN<1> IN<0> OUT<2> OUT<1> OUT<0> VDD VSS
+*.PININFO IN<2>:I IN<1>:I IN<0>:I OUT<2>:O OUT<1>:O OUT<0>:O VDD:B VSS:B
+XI1 IN<1> net4 OUT<0> VDD VSS / AND2
+XI0 net4 IN<0> OUT<1> VDD VSS / AND2
+XI3 VDD OUT<2> VDD VSS / INV
+XI2 IN<2> net4 VDD VSS / INV
+.ENDS
+

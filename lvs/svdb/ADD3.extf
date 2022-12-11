@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1670705886 1670705887
+lvs_ExtOutFile RUNDIR /filespace/m/mdlively/ECE555/lvs
+lvs_ExtOutFile RULES_FILE /filespace/m/mdlively/ECE555/lvs/_lvsRules_calibre_asap7.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 9 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/ADD3.sp
+lvs_ExtOutFile EXTRACTION_REPORT ADD3.lvs.report.ext

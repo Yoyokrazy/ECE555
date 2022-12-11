@@ -1,7 +1,17 @@
 CADENCE IHNL11140
 $model
+ECE555/ADD2/schematic ADD2
+ECE555/MUX/schematic MUX
+ECE555/NOR2/schematic NOR2
+ECE555/INV_2_4/schematic INV_2_4
+ECE555/OR2/schematic OR2
+ECE555/MULTIPLIER/schematic MULTIPLIER
 ECE555/INV/schematic INV
+ECE555/ADD3/schematic ADD3
 ECE555/NAND2/schematic NAND2
+ECE555/ADD1/schematic ADD1
+ECE555/XOR2/schematic XOR2
+ECE555/NEURON/schematic NEURON
 ECE555/AND2/schematic AND2
 $endmodel
 $net

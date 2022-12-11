@@ -18,19 +18,23 @@ v0 vdd! 0 0.9V
 v1 vss! 0 0v
 
 ** inputs
-v2 X_0<0> 0 pulse 0v 0.9v 10s 0.025ns 0.025ns 10ns 300ns
-v3 X_0<1> 0 pulse 0v 0.9v 20s 0.025ns 0.025ns 10ns 300ns
-v6 X_1<0> 0 pulse 0v 0.9v 30s 0.025ns 0.025ns 10ns 300ns
-v7 X_1<1> 0 pulse 0v 0.9v 40s 0.025ns 0.025ns 10ns 300ns
+v2 X_0<0> 0 pulse 0v 0.9v 10ns 0.025ns 0.025ns 10ns 300ns
+v3 X_0<1> 0 pulse 0v 0.9v 20ns 0.025ns 0.025ns 10ns 300ns
+v6 X_1<0> 0 pulse 0v 0.9v 30ns 0.025ns 0.025ns 10ns 300ns
+v7 X_1<1> 0 pulse 0v 0.9v 40ns 0.025ns 0.025ns 10ns 300ns
 
-v4 W_0<0> 0 pulse 0v 0.9v 50s 0.025ns 0.025ns 10ns 300ns
-v5 W_0<1> 0 pulse 0v 0.9v 60s 0.025ns 0.025ns 10ns 300ns
-v8 W_1<0> 0 pulse 0v 0.9v 70s 0.025ns 0.025ns 10ns 300ns
-v9 W_1<1> 0 pulse 0v 0.9v 80s 0.025ns 0.025ns 10ns 300ns
+v4 W_0<0> 0 pulse 0v 0.9v 50ns 0.025ns 0.025ns 10ns 300ns
+v5 W_0<1> 0 pulse 0v 0.9v 60ns 0.025ns 0.025ns 10ns 300ns
+v8 W_1<0> 0 pulse 0v 0.9v 70ns 0.025ns 0.025ns 10ns 300ns
+v9 W_1<1> 0 pulse 0v 0.9v 80ns 0.025ns 0.025ns 10ns 300ns
 
-v10 W_2<0> 0 pulse 0v 0.9v 90s 0.025ns 0.025ns 10ns 300ns
-v11 W_2<1> 0 pulse 0v 0.9v 100s 0.025ns 0.025ns 10ns 300ns
-v12 W_2<2> 0 pulse 0v 0.9v 110s 0.025ns 0.025ns 10ns 300ns
+v10 W_2<0> 0 pulse 0v 0.9v 90ns 0.025ns 0.025ns 10ns 300ns
+v11 W_2<1> 0 pulse 0v 0.9v 100ns 0.025ns 0.025ns 10ns 300ns
+v12 W_2<2> 0 pulse 0v 0.9v 110ns 0.025ns 0.025ns 10ns 300ns
 
-v13 Cin_0 0 pulse 0v 0.9v 120s 0.025ns 0.025ns 10ns 300ns
-v14 Cin_1 0 pulse 0v 0.9v 130s 0.025ns 0.025ns 10ns 300ns
+v13 Cin_0 0 pulse 0v 0.9v 120ns 0.025ns 0.025ns 10ns 300ns
+v14 Cin_1 0 pulse 0v 0.9v 130ns 0.025ns 0.025ns 10ns 300ns
+
+.tr 10ps 500ns
+
+.end

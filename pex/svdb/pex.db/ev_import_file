@@ -7,4 +7,4 @@ config_extract -extract_to_blockages true
 setenv EXTR_DEF_CELL_OBSTRUCTIONS 1
 config_extraction -use_interval_wires true
 
-write_pdb    -prefix_special_characters false -file NEURON.pex.netlist -corner slow -coupling true -turbo 6 -hspice1 -name_map false -nospice
+write_pdb    -prefix_special_characters false -file AND2.pex.netlist -corner slow -coupling true -turbo 6 -hspice1 -name_map false -nospice

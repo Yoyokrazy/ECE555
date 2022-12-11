@@ -16,7 +16,7 @@ LAYOUT NAME:              svdb/AND2.sp ('AND2')
 SOURCE NAME:              AND2.src.net ('AND2')
 RULE FILE:                _rcxControl_calibre_asap7.rul_
 RULE FILE TITLE:          LVS Rule File for ASAP7 PDK
-CREATION TIME:            Sun Dec  4 16:53:52 2022
+CREATION TIME:            Sat Dec 10 21:08:12 2022
 CURRENT DIRECTORY:        /filespace/m/mdlively/ECE555/pex
 USER NAME:                mdlively
 CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017

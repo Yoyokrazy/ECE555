@@ -6,4 +6,4 @@ lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT AND2.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST AND2.src.net
 lvs_LvsOutFile RULES_FILE _rcxControl_calibre_asap7.rul_
-lvs_LvsRunTimes 1670194432 1670194432
+lvs_LvsRunTimes 1670728092 1670728092

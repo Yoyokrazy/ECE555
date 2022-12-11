@@ -4,7 +4,7 @@
 * Library Name:  ECE555
 * Top Cell Name: AND2
 * View Name:     schematic
-* Netlisted on:  Dec  4 16:53:51 2022
+* Netlisted on:  Dec 10 21:08:11 2022
 ************************************************************************
 
 *.EQUATION
@@ -22,19 +22,19 @@
 
 .SUBCKT NAND2 IN<0> IN<1> OUT VDD VSS
 *.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
-MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
 Mnmos OUT IN<1> net1 VSS nmos_rvt w=108.00n l=20n nfin=4
 MM1 OUT IN<1> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
 Mpmos OUT IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
 .ENDS
 
 ************************************************************************
 * Library Name: ECE555
-* Cell Name:    INV
+* Cell Name:    INV_2_4
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT INV IN OUT VDD VSS
+.SUBCKT INV_2_4 IN OUT VDD VSS
 *.PININFO IN:I OUT:O VDD:B VSS:B
 MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
 MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
@@ -49,6 +49,6 @@ MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
 .SUBCKT AND2 IN<0> IN<1> OUT VDD VSS
 *.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
 XNAND IN<0> IN<1> net1 VDD VSS / NAND2
-XINV net1 OUT VDD VSS / INV
+XI0 net1 OUT VDD VSS / INV_2_4
 .ENDS
 
