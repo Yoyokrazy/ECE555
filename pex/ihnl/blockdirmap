@@ -1,5 +1,15 @@
-CADENCE IHNL11143
+CADENCE IHNL111413
 
 ECE555 NAND2 schematic cds0
-ECE555 INV schematic cds1
+ECE555 INV_2_4 schematic cds1
 ECE555 AND2 schematic cds2
+ECE555 XOR2 schematic cds3
+ECE555 NOR2 schematic cds4
+ECE555 OR2 schematic cds5
+ECE555 ADD1 schematic cds6
+ECE555 ADD3 schematic cds7
+ECE555 ADD2 schematic cds8
+ECE555 INV schematic cds9
+ECE555 MUX schematic cds10
+ECE555 MULTIPLIER schematic cds11
+ECE555 NEURON schematic cds12

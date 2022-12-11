@@ -1,0 +1,1324 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         NEURON.lvs.report
+LAYOUT NAME:              svdb/NEURON.sp ('NEURON')
+SOURCE NAME:              NEURON.src.net ('NEURON')
+RULE FILE:                _rcxControl_calibre_asap7.rul_
+RULE FILE TITLE:          LVS Rule File for ASAP7 PDK
+CREATION TIME:            Sat Dec 10 20:07:46 2022
+CURRENT DIRECTORY:        /filespace/m/mdlively/ECE555/pex
+USER NAME:                mdlively
+CALIBRE VERSION:          v2017.4_19.14    Tue Nov 7 11:38:08 PST 2017
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+  Error:    Property errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      NEURON                        NEURON
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     100
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      N
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES SEMI ALSO
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_rvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_sram)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_lvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_slvt)  nfin nfin 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  l l 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  w w 0 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_slvt)  nfin nfin 0 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+  Error:    Property errors.
+
+LAYOUT CELL NAME:         NEURON
+SOURCE CELL NAME:         NEURON
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             19        19
+
+ Nets:             152       152
+
+ Instances:        149       137    *    MN (4 pins)
+                   149       137    *    MP (4 pins)
+                ------    ------
+ Total Inst:       298       274
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             19        19
+
+ Nets:             152       152
+
+ Instances:        137       137         MN (4 pins)
+                   137       137         MP (4 pins)
+                ------    ------
+ Total Inst:       274       274
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VDD                                                   VDD
+       --- 260 Connections On This Net ---                       --- 260 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M83(2.342,1.620):s                                        ** missing connection **
+       M81(2.342,0.999):s                                        ** missing connection **
+       M53(1.620,0.378):s                                        ** missing connection **
+       M33(1.026,0.999):s                                        ** missing connection **
+       M7(0.162,0.999):s                                         ** missing connection **
+       M5(0.162,0.378):s                                         ** missing connection **
+       
+       ** missing connection **                                  XI4/XI15/MMM11:s
+       ** missing connection **                                  XI1/XI0/XI2/MMM11:s
+       ** missing connection **                                  XI1/XI0/XI3/MMM11:s
+       ** missing connection **                                  XI1/XI1/XI3/MMM11:s
+       ** missing connection **                                  XI0/XI0/XI2/MMM11:s
+       ** missing connection **                                  XI0/XI2/XI2/MMM11:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net VSS                                                   VSS
+       --- 235 Connections On This Net ---                       --- 235 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M244(2.612,1.755):d                                       ** missing connection **
+       M214(1.890,1.134):d                                       ** missing connection **
+       M213(1.890,0.513):d                                       ** missing connection **
+       M164(0.432,1.134):d                                       ** missing connection **
+       M163(0.432,0.513):d                                       ** missing connection **
+       
+       ** missing connection **                                  XI3/XI15/MMM3:s
+       ** missing connection **                                  XI4/XI15/MMM3:s
+       ** missing connection **                                  XI1/XI0/XI3/MMM3:s
+       ** missing connection **                                  XI0/XI0/XI2/MMM3:s
+       ** missing connection **                                  XI0/XI2/XI2/MMM3:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net X_0<1>                                                X_0<1>
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M9(0.216,0.999):g                                         ** missing connection **
+       
+       ** missing connection **                                  XI3/XI15/MMM11:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net CIN_0                                                 CIN_0
+       --- 7 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M213(1.890,0.513):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI1/XI3/MMM2:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net W2_0<0>                                               W2_0<0>
+       --- 7 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M242(2.612,0.513):g                                       ** missing connection **
+       M221(2.288,0.027):g                                       ** missing connection **
+       M79(2.342,0.378):g                                        ** missing connection **
+       
+       ** missing connection **                                  XI0/XI1/XI2/MMM2:g
+       ** missing connection **                                  XI0/XI1/XI2/MMM10:g
+       ** missing connection **                                  XI0/XI1/XI1/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net W2_0<1>                                               W2_0<1>
+       --- 7 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M243(2.612,1.134):g                                       ** missing connection **
+       M223(2.288,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI2/MMM2:g
+       ** missing connection **                                  XI0/XI0/XI1/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net W2_0<2>                                               W2_0<2>
+       --- 7 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M225(2.288,1.269):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI1/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net CIN_1                                                 CIN_1
+       --- 7 Connections On This Net ---                         --- 7 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M278(3.206,0.513):g                                       ** missing connection **
+       M112(2.936,0.378):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI1/XI3/MMM2:g
+       ** missing connection **                                  XI0/XI1/XI3/MMM10:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net 4                                                     XI4/XI15/net045
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M161(0.378,0.513):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI4/XI15/MMM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net 15                                                    XI4/XI15/xor
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M8(0.216,0.378):d                                         ** missing connection **
+       
+       ** missing connection **                                  XI4/XI15/MMM10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net 6                                                     XI3/XI15/net045
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M162(0.378,1.134):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI3/XI15/MMM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net 16                                                    XI3/XI15/xor
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M9(0.216,0.999):d                                         ** missing connection **
+       
+       ** missing connection **                                  XI3/XI15/MMM10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net 143                                                   XI1/XI0/XI3/net059
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M7(0.162,0.999):d                                         ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI3/MMM11:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net 24                                                    BOTTOM_MULT<1>
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M190(1.296,1.134):g                                       ** missing connection **
+       M177(0.972,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI2/MMM2:g
+       ** missing connection **                                  XI1/XI0/XI1/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net 26                                                    UP_MULT<1>
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M188(1.242,1.134):g                                       ** missing connection **
+       M181(1.026,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI2/MMM3:g
+       ** missing connection **                                  XI1/XI0/XI1/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net 30                                                    XI1/XI0/XI2/xor
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M35(1.080,0.999):d                                        ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI2/MMM10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net 31                                                    XI1/XI1/net1
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M210(1.836,0.513):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI1/XI3/MMM3:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net 34                                                    XI1/net2
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M55(1.620,0.999):g                                        ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI3/MMM10:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net 43                                                    XI1/XI1/XI3/xor
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M56(1.674,0.378):d                                        ** missing connection **
+       
+       ** missing connection **                                  XI1/XI1/XI3/MMM10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net 36                                                    XI1/XI0/XI3/net045
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M212(1.836,1.134):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI3/MMM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net 44                                                    XI1/XI0/XI3/xor
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M57(1.674,0.999):d                                        ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI3/MMM10:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net 147                                                   XI3/XI15/net059
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M57(1.674,0.999):s                                        ** missing connection **
+       
+       ** missing connection **                                  XI3/XI15/MMM10:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net 53                                                    IN_0<0>
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M239(2.558,0.513):g                                       ** missing connection **
+       M227(2.342,0.027):g                                       ** missing connection **
+       M84(2.396,0.378):g                                        ** missing connection **
+       
+       ** missing connection **                                  XI0/XI1/XI2/MMM3:g
+       ** missing connection **                                  XI0/XI1/XI2/MMM11:g
+       ** missing connection **                                  XI0/XI1/XI1/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net 54                                                    IN_0<1>
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M229(2.342,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI1/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net 55                                                    IN_0<2>
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M231(2.342,1.269):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI1/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net 50                                                    XI0/XI0/XI2/net045
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M240(2.558,1.134):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI2/MMM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net 52                                                    XI0/XI2/XI2/net045
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M241(2.558,1.755):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI2/MMM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net 62                                                    XI0/XI1/net1
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M273(3.152,0.513):g                                       ** missing connection **
+       M117(2.990,0.378):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI1/XI3/MMM3:g
+       ** missing connection **                                  XI0/XI1/XI3/MMM11:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net 63                                                    XI0/net13
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M250(2.720,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI0/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net 64                                                    XI0/net12
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M252(2.720,1.269):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI0/XNAND/Mnmos:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net 66                                                    XI0/XI0/net1
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M255(2.774,0.648):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI0/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net 67                                                    XI0/XI2/net1
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M256(2.774,1.269):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI0/XNAND/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    Net 83                                                    XI0/XI1/XI4/net12
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M284(3.314,0.027):g                                       ** missing connection **
+       M135(3.314,0.243):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI1/XI4/XI1/MM1:g
+       ** missing connection **                                  XI0/XI1/XI4/XI1/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    Net 84                                                    XI0/XI0/XI4/net12
+       --- 5 Connections On This Net ---                         --- 5 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M286(3.314,0.648):g                                       ** missing connection **
+       M137(3.314,0.864):g                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI4/XI1/MM1:g
+       ** missing connection **                                  XI0/XI0/XI4/XI1/MM0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    Net 114                                                   XI0/XI0/XI0/XNAND/net1
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M181(1.026,0.648):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI0/XNAND/Mnmos:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    Net 133                                                   XI1/XI1/XI3/net060
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M188(1.242,1.134):d                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI1/XI3/MMM2:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    Net 134                                                   XI0/XI0/XI2/net060
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M210(1.836,0.513):d                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI0/XI2/MMM3:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    Net 137                                                   XI1/XI0/XI2/net060
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M240(2.558,1.134):d                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI2/MMM2:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    Net 123                                                   XI0/XI2/XI0/XNAND/net1
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M255(2.774,0.648):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI0/XI2/XI0/XNAND/Mnmos:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    Net 124                                                   XI1/XI0/XI1/XNAND/net1
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       M256(2.774,1.269):s                                       ** missing connection **
+       
+       ** missing connection **                                  XI1/XI0/XI1/XNAND/Mnmos:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    Net 60                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    Net 61                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    ** no similar net **                                      XI0/XI2/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    ** no similar net **                                      XI0/XI0/XI2/xor
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+ 45    M97(2.666,0.999)  MP(PMOS_RVT)                            XI0/XI1/XI4/XI1/MM1  MP(PMOS_RVT)
+       w: 0.162 u                                                w: 0.054 u                 0.108 u
+       nfin: 6                                                   nfin: 2                        4 
+
+ 46    M98(2.666,1.620)  MP(PMOS_RVT)                            XI0/XI0/XI4/XI1/MM1  MP(PMOS_RVT)
+       w: 0.162 u                                                w: 0.054 u                 0.108 u
+       nfin: 6                                                   nfin: 2                        4 
+
+ 47    M135(3.314,0.243)  MP(PMOS_RVT)                           XI0/XI0/XI2/MMM12  MP(PMOS_RVT)
+       w: 0.054 u                                                w: 0.162 u                 0.108 u
+       nfin: 2                                                   nfin: 6                        4 
+
+ 48    M137(3.314,0.864)  MP(PMOS_RVT)                           XI0/XI2/XI2/MMM12  MP(PMOS_RVT)
+       w: 0.054 u                                                w: 0.162 u                 0.108 u
+       nfin: 2                                                   nfin: 6                        4 
+
+ 49    M246(2.666,1.134)  MN(NMOS_RVT)                           XI0/XI1/XI4/XI1/MM0  MN(NMOS_RVT)
+       w: 0.162 u                                                w: 0.108 u                 0.054 u
+       nfin: 6                                                   nfin: 4                        2 
+
+ 50    M247(2.666,1.755)  MN(NMOS_RVT)                           XI0/XI0/XI4/XI1/MM0  MN(NMOS_RVT)
+       w: 0.162 u                                                w: 0.108 u                 0.054 u
+       nfin: 6                                                   nfin: 4                        2 
+
+ 51    M284(3.314,0.027)  MN(NMOS_RVT)                           XI0/XI0/XI2/MMM13  MN(NMOS_RVT)
+       w: 0.108 u                                                w: 0.162 u                 0.054 u
+       nfin: 4                                                   nfin: 6                        2 
+
+ 52    M286(3.314,0.648)  MN(NMOS_RVT)                           XI0/XI2/XI2/MMM13  MN(NMOS_RVT)
+       w: 0.108 u                                                w: 0.162 u                 0.054 u
+       nfin: 4                                                   nfin: 6                        2 
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              19         19            0            0
+
+   Nets:              150        150            2            2
+
+   Instances:         137        137            0            0    MN(NMOS_RVT)
+                      137        137            0            0    MP(PMOS_RVT)
+                  -------    -------    ---------    ---------
+   Total Inst:        274        274            0            0
+
+
+o Statistics:
+
+   48 layout mos transistors were reduced to 24.
+     24 mos transistors were deleted by parallel reduction.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD VSS X_1<0> X_0<0> W1_0<0> W1_0<1> W0_0<0> W0_0<1> X_1<1> X_0<1> CIN_0
+                 W2_0<0> W2_0<1> W2_0<2> CIN_1 COUT Z<2> Z<1> Z<0>
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       M5(0.162,0.378)  MP(PMOS_RVT)                             XI4/XI15/MMM10  MP(PMOS_RVT)
+         g: W1_0<1>                                                g: W1_0<1>
+         d: 142                                                    s: XI4/XI15/net059
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         ** 15 **                                                  d: XI4/XI15/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M7(0.162,0.999)  MP(PMOS_RVT)                             XI3/XI15/MMM10  MP(PMOS_RVT)
+         g: W0_0<1>                                                g: W0_0<1>
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         d: 143                                                    ** XI1/XI0/XI3/net059 **
+         ** 147 **                                                 s: XI3/XI15/net059
+         ** 16 **                                                  d: XI3/XI15/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M8(0.216,0.378)  MP(PMOS_RVT)                             XI4/XI15/MMM11  MP(PMOS_RVT)
+         g: X_1<1>                                                 g: X_1<1>
+         s: 142                                                    d: XI4/XI15/net059
+         b: VDD                                                    b: VDD
+         d: 15                                                     ** XI4/XI15/xor **
+         ** VDD **                                                 s: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+       M9(0.216,0.999)  MP(PMOS_RVT)                             XI1/XI0/XI3/MMM10  MP(PMOS_RVT)
+         s: 143                                                    s: XI1/XI0/XI3/net059
+         b: VDD                                                    b: VDD
+         g: X_0<1>                                                 ** X_0<1> **
+         d: 16                                                     ** XI3/XI15/xor **
+         ** 34 **                                                  g: XI1/net2
+         ** 44 **                                                  d: XI1/XI0/XI3/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M33(1.026,0.999)  MP(PMOS_RVT)                            XI1/XI0/XI2/MMM10  MP(PMOS_RVT)
+         g: 24                                                     g: BOTTOM_MULT<1>
+         d: 145                                                    s: XI1/XI0/XI2/net059
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         ** 30 **                                                  d: XI1/XI0/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M35(1.080,0.999)  MP(PMOS_RVT)                            XI1/XI0/XI2/MMM11  MP(PMOS_RVT)
+         g: 26                                                     g: UP_MULT<1>
+         s: 145                                                    d: XI1/XI0/XI2/net059
+         b: VDD                                                    b: VDD
+         d: 30                                                     ** XI1/XI0/XI2/xor **
+         ** VDD **                                                 s: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+       M53(1.620,0.378)  MP(PMOS_RVT)                            XI1/XI1/XI3/MMM10  MP(PMOS_RVT)
+         g: CIN_0                                                  g: CIN_0
+         d: 146                                                    s: XI1/XI1/XI3/net059
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         ** 43 **                                                  d: XI1/XI1/XI3/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M55(1.620,0.999)  MP(PMOS_RVT)                            XI3/XI15/MMM11  MP(PMOS_RVT)
+         s: VDD                                                    s: VDD
+         d: 147                                                    d: XI3/XI15/net059
+         b: VDD                                                    b: VDD
+         g: 34                                                     ** XI1/net2 **
+         ** X_0<1> **                                              g: X_0<1>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M56(1.674,0.378)  MP(PMOS_RVT)                            XI1/XI1/XI3/MMM11  MP(PMOS_RVT)
+         g: 31                                                     g: XI1/XI1/net1
+         s: 146                                                    d: XI1/XI1/XI3/net059
+         b: VDD                                                    b: VDD
+         d: 43                                                     ** XI1/XI1/XI3/xor **
+         ** VDD **                                                 s: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+       M57(1.674,0.999)  MP(PMOS_RVT)                            XI1/XI0/XI3/MMM11  MP(PMOS_RVT)
+         g: 32                                                     g: XI1/XI0/net1
+         b: VDD                                                    b: VDD
+         s: 147                                                    ** XI3/XI15/net059 **
+         d: 44                                                     ** XI1/XI0/XI3/xor **
+         ** VDD **                                                 s: VDD
+         ** 143 **                                                 d: XI1/XI0/XI3/net059
+
+--------------------------------------------------------------------------------------------------------------
+
+       M79(2.342,0.378)  MP(PMOS_RVT)                            XI0/XI1/XI2/MMM11  MP(PMOS_RVT)
+         s: VDD                                                    s: VDD
+         d: 148                                                    d: XI0/XI1/XI2/net059
+         b: VDD                                                    b: VDD
+         g: W2_0<0>                                                ** W2_0<0> **
+         ** 53 **                                                  g: IN_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M81(2.342,0.999)  MP(PMOS_RVT)                            XI0/XI0/XI2/MMM10  MP(PMOS_RVT)
+         g: W2_0<1>                                                g: W2_0<1>
+         d: 149                                                    s: XI0/XI0/XI2/net059
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         ** no similar net **                                      d: XI0/XI0/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M83(2.342,1.620)  MP(PMOS_RVT)                            XI0/XI2/XI2/MMM10  MP(PMOS_RVT)
+         g: W2_0<2>                                                g: W2_0<2>
+         d: 150                                                    s: XI0/XI2/XI2/net059
+         b: VDD                                                    b: VDD
+         s: VDD                                                    ** VDD **
+         ** no similar net **                                      d: XI0/XI2/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M84(2.396,0.378)  MP(PMOS_RVT)                            XI0/XI1/XI2/MMM10  MP(PMOS_RVT)
+         s: 148                                                    s: XI0/XI1/XI2/net059
+         d: 59                                                     d: XI0/XI1/XI2/xor
+         b: VDD                                                    b: VDD
+         g: 53                                                     ** IN_0<0> **
+         ** W2_0<0> **                                             g: W2_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M85(2.396,0.999)  MP(PMOS_RVT)                            XI0/XI0/XI2/MMM11  MP(PMOS_RVT)
+         g: 54                                                     g: IN_0<1>
+         s: 149                                                    d: XI0/XI0/XI2/net059
+         b: VDD                                                    b: VDD
+         d: 60                                                     ** no similar net **
+         ** VDD **                                                 s: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+       M86(2.396,1.620)  MP(PMOS_RVT)                            XI0/XI2/XI2/MMM11  MP(PMOS_RVT)
+         g: 55                                                     g: IN_0<2>
+         s: 150                                                    d: XI0/XI2/XI2/net059
+         b: VDD                                                    b: VDD
+         d: 61                                                     ** no similar net **
+         ** VDD **                                                 s: VDD
+
+--------------------------------------------------------------------------------------------------------------
+
+       M97(2.666,0.999)  MP(PMOS_RVT)                            XI0/XI1/XI4/XI1/MM1  MP(PMOS_RVT)
+         s: VDD                                                    s: VDD
+         d: 63                                                     d: XI0/net13
+         b: VDD                                                    b: VDD
+         g: 60                                                     ** no similar net **
+         ** 83 **                                                  g: XI0/XI1/XI4/net12
+
+--------------------------------------------------------------------------------------------------------------
+
+       M98(2.666,1.620)  MP(PMOS_RVT)                            XI0/XI0/XI4/XI1/MM1  MP(PMOS_RVT)
+         s: VDD                                                    s: VDD
+         d: 64                                                     d: XI0/net12
+         b: VDD                                                    b: VDD
+         g: 61                                                     ** no similar net **
+         ** 84 **                                                  g: XI0/XI0/XI4/net12
+
+--------------------------------------------------------------------------------------------------------------
+
+       M112(2.936,0.378)  MP(PMOS_RVT)                           XI0/XI1/XI3/MMM11  MP(PMOS_RVT)
+         s: VDD                                                    s: VDD
+         d: 151                                                    d: XI0/XI1/XI3/net059
+         b: VDD                                                    b: VDD
+         g: CIN_1                                                  ** CIN_1 **
+         ** 62 **                                                  g: XI0/XI1/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M117(2.990,0.378)  MP(PMOS_RVT)                           XI0/XI1/XI3/MMM10  MP(PMOS_RVT)
+         s: 151                                                    s: XI0/XI1/XI3/net059
+         d: 80                                                     d: XI0/XI1/XI3/xor
+         b: VDD                                                    b: VDD
+         g: 62                                                     ** XI0/XI1/net1 **
+         ** CIN_1 **                                               g: CIN_1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M135(3.314,0.243)  MP(PMOS_RVT)                           XI0/XI0/XI2/MMM12  MP(PMOS_RVT)
+         s: VDD                                                    d: VDD
+         d: 66                                                     s: XI0/XI0/net1
+         b: VDD                                                    b: VDD
+         g: 83                                                     ** XI0/XI1/XI4/net12 **
+         ** no similar net **                                      g: XI0/XI0/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M137(3.314,0.864)  MP(PMOS_RVT)                           XI0/XI2/XI2/MMM12  MP(PMOS_RVT)
+         s: VDD                                                    d: VDD
+         d: 67                                                     s: XI0/XI2/net1
+         b: VDD                                                    b: VDD
+         g: 84                                                     ** XI0/XI0/XI4/net12 **
+         ** no similar net **                                      g: XI0/XI2/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M161(0.378,0.513)  MN(NMOS_RVT)                           XI4/XI15/MMM3  MN(NMOS_RVT)
+         g: X_1<1>                                                 g: X_1<1>
+         d: 130                                                    d: XI4/XI15/net060
+         b: VSS                                                    b: VSS
+         s: 4                                                      ** XI4/XI15/net045 **
+         ** VSS **                                                 s: VSS
+
+--------------------------------------------------------------------------------------------------------------
+
+       M162(0.378,1.134)  MN(NMOS_RVT)                           XI3/XI15/MMM3  MN(NMOS_RVT)
+         g: X_0<1>                                                 g: X_0<1>
+         d: 131                                                    d: XI3/XI15/net060
+         b: VSS                                                    b: VSS
+         s: 6                                                      ** XI3/XI15/net045 **
+         ** VSS **                                                 s: VSS
+
+--------------------------------------------------------------------------------------------------------------
+
+       M163(0.432,0.513)  MN(NMOS_RVT)                           XI4/XI15/MMM2  MN(NMOS_RVT)
+         g: W1_0<1>                                                g: W1_0<1>
+         s: 130                                                    s: XI4/XI15/net060
+         b: VSS                                                    b: VSS
+         d: VSS                                                    ** VSS **
+         ** 4 **                                                   d: XI4/XI15/net045
+
+--------------------------------------------------------------------------------------------------------------
+
+       M164(0.432,1.134)  MN(NMOS_RVT)                           XI3/XI15/MMM2  MN(NMOS_RVT)
+         g: W0_0<1>                                                g: W0_0<1>
+         s: 131                                                    s: XI3/XI15/net060
+         b: VSS                                                    b: VSS
+         d: VSS                                                    ** VSS **
+         ** 6 **                                                   d: XI3/XI15/net045
+
+--------------------------------------------------------------------------------------------------------------
+
+       M177(0.972,0.648)  MN(NMOS_RVT)                           XI0/XI0/XI0/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 114                                                    d: XI0/XI0/XI0/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: 24                                                     ** BOTTOM_MULT<1> **
+         ** 66 **                                                  g: XI0/XI0/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M181(1.026,0.648)  MN(NMOS_RVT)                           XI1/XI0/XI1/XNAND/Mnmos  MN(NMOS_RVT)
+         d: 28                                                     d: XI1/XI0/XI1/net1
+         b: VSS                                                    b: VSS
+         g: 26                                                     ** UP_MULT<1> **
+         s: 114                                                    ** XI0/XI0/XI0/XNAND/net1 **
+         ** 24 **                                                  g: BOTTOM_MULT<1>
+         ** 124 **                                                 s: XI1/XI0/XI1/XNAND/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M188(1.242,1.134)  MN(NMOS_RVT)                           XI1/XI0/XI2/MMM2  MN(NMOS_RVT)
+         s: 25                                                     d: XI1/XI0/XI2/net045
+         b: VSS                                                    b: VSS
+         g: 26                                                     ** UP_MULT<1> **
+         d: 133                                                    ** XI1/XI1/XI3/net060 **
+         ** 24 **                                                  g: BOTTOM_MULT<1>
+         ** 137 **                                                 s: XI1/XI0/XI2/net060
+
+--------------------------------------------------------------------------------------------------------------
+
+       M190(1.296,1.134)  MN(NMOS_RVT)                           XI1/XI1/XI3/MMM3  MN(NMOS_RVT)
+         s: 133                                                    d: XI1/XI1/XI3/net060
+         d: VSS                                                    s: VSS
+         b: VSS                                                    b: VSS
+         g: 24                                                     ** BOTTOM_MULT<1> **
+         ** 31 **                                                  g: XI1/XI1/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M210(1.836,0.513)  MN(NMOS_RVT)                           XI1/XI1/XI3/MMM2  MN(NMOS_RVT)
+         s: 35                                                     d: XI1/XI1/XI3/net045
+         b: VSS                                                    b: VSS
+         g: 31                                                     ** XI1/XI1/net1 **
+         d: 134                                                    ** XI0/XI0/XI2/net060 **
+         ** CIN_0 **                                               g: CIN_0
+         ** 133 **                                                 s: XI1/XI1/XI3/net060
+
+--------------------------------------------------------------------------------------------------------------
+
+       M212(1.836,1.134)  MN(NMOS_RVT)                           XI1/XI0/XI3/MMM3  MN(NMOS_RVT)
+         g: 32                                                     g: XI1/XI0/net1
+         d: 135                                                    d: XI1/XI0/XI3/net060
+         b: VSS                                                    b: VSS
+         s: 36                                                     ** XI1/XI0/XI3/net045 **
+         ** VSS **                                                 s: VSS
+
+--------------------------------------------------------------------------------------------------------------
+
+       M213(1.890,0.513)  MN(NMOS_RVT)                           XI0/XI0/XI2/MMM2  MN(NMOS_RVT)
+         s: 134                                                    s: XI0/XI0/XI2/net060
+         b: VSS                                                    b: VSS
+         g: CIN_0                                                  ** CIN_0 **
+         d: VSS                                                    ** VSS **
+         ** W2_0<1> **                                             g: W2_0<1>
+         ** 50 **                                                  d: XI0/XI0/XI2/net045
+
+--------------------------------------------------------------------------------------------------------------
+
+       M214(1.890,1.134)  MN(NMOS_RVT)                           XI1/XI0/XI3/MMM2  MN(NMOS_RVT)
+         g: 34                                                     g: XI1/net2
+         s: 135                                                    s: XI1/XI0/XI3/net060
+         b: VSS                                                    b: VSS
+         d: VSS                                                    ** VSS **
+         ** 36 **                                                  d: XI1/XI0/XI3/net045
+
+--------------------------------------------------------------------------------------------------------------
+
+       M221(2.288,0.027)  MN(NMOS_RVT)                           XI0/XI1/XI1/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 119                                                    d: XI0/XI1/XI1/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: W2_0<0>                                                ** W2_0<0> **
+         ** 53 **                                                  g: IN_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M223(2.288,0.648)  MN(NMOS_RVT)                           XI0/XI0/XI1/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 120                                                    d: XI0/XI0/XI1/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: W2_0<1>                                                ** W2_0<1> **
+         ** 54 **                                                  g: IN_0<1>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M225(2.288,1.269)  MN(NMOS_RVT)                           XI0/XI2/XI1/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 121                                                    d: XI0/XI2/XI1/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: W2_0<2>                                                ** W2_0<2> **
+         ** 55 **                                                  g: IN_0<2>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M227(2.342,0.027)  MN(NMOS_RVT)                           XI0/XI1/XI1/XNAND/Mnmos  MN(NMOS_RVT)
+         s: 119                                                    s: XI0/XI1/XI1/XNAND/net1
+         d: 56                                                     d: XI0/XI1/XI1/net1
+         b: VSS                                                    b: VSS
+         g: 53                                                     ** IN_0<0> **
+         ** W2_0<0> **                                             g: W2_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M229(2.342,0.648)  MN(NMOS_RVT)                           XI0/XI0/XI1/XNAND/Mnmos  MN(NMOS_RVT)
+         s: 120                                                    s: XI0/XI0/XI1/XNAND/net1
+         d: 57                                                     d: XI0/XI0/XI1/net1
+         b: VSS                                                    b: VSS
+         g: 54                                                     ** IN_0<1> **
+         ** W2_0<1> **                                             g: W2_0<1>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M231(2.342,1.269)  MN(NMOS_RVT)                           XI0/XI2/XI1/XNAND/Mnmos  MN(NMOS_RVT)
+         s: 121                                                    s: XI0/XI2/XI1/XNAND/net1
+         d: 58                                                     d: XI0/XI2/XI1/net1
+         b: VSS                                                    b: VSS
+         g: 55                                                     ** IN_0<2> **
+         ** W2_0<2> **                                             g: W2_0<2>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M239(2.558,0.513)  MN(NMOS_RVT)                           XI0/XI1/XI2/MMM2  MN(NMOS_RVT)
+         s: 48                                                     d: XI0/XI1/XI2/net045
+         d: 136                                                    s: XI0/XI1/XI2/net060
+         b: VSS                                                    b: VSS
+         g: 53                                                     ** IN_0<0> **
+         ** W2_0<0> **                                             g: W2_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M240(2.558,1.134)  MN(NMOS_RVT)                           XI0/XI0/XI2/MMM3  MN(NMOS_RVT)
+         g: 54                                                     g: IN_0<1>
+         b: VSS                                                    b: VSS
+         s: 50                                                     ** XI0/XI0/XI2/net045 **
+         d: 137                                                    ** XI1/XI0/XI2/net060 **
+         ** VSS **                                                 s: VSS
+         ** 134 **                                                 d: XI0/XI0/XI2/net060
+
+--------------------------------------------------------------------------------------------------------------
+
+       M241(2.558,1.755)  MN(NMOS_RVT)                           XI0/XI2/XI2/MMM3  MN(NMOS_RVT)
+         g: 55                                                     g: IN_0<2>
+         d: 138                                                    d: XI0/XI2/XI2/net060
+         b: VSS                                                    b: VSS
+         s: 52                                                     ** XI0/XI2/XI2/net045 **
+         ** VSS **                                                 s: VSS
+
+--------------------------------------------------------------------------------------------------------------
+
+       M242(2.612,0.513)  MN(NMOS_RVT)                           XI0/XI1/XI2/MMM3  MN(NMOS_RVT)
+         s: 136                                                    d: XI0/XI1/XI2/net060
+         d: VSS                                                    s: VSS
+         b: VSS                                                    b: VSS
+         g: W2_0<0>                                                ** W2_0<0> **
+         ** 53 **                                                  g: IN_0<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M243(2.612,1.134)  MN(NMOS_RVT)                           XI1/XI0/XI2/MMM3  MN(NMOS_RVT)
+         s: 137                                                    d: XI1/XI0/XI2/net060
+         d: VSS                                                    s: VSS
+         b: VSS                                                    b: VSS
+         g: W2_0<1>                                                ** W2_0<1> **
+         ** 26 **                                                  g: UP_MULT<1>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M244(2.612,1.755)  MN(NMOS_RVT)                           XI0/XI2/XI2/MMM2  MN(NMOS_RVT)
+         g: W2_0<2>                                                g: W2_0<2>
+         s: 138                                                    s: XI0/XI2/XI2/net060
+         b: VSS                                                    b: VSS
+         d: VSS                                                    ** VSS **
+         ** 52 **                                                  d: XI0/XI2/XI2/net045
+
+--------------------------------------------------------------------------------------------------------------
+
+       M246(2.666,1.134)  MN(NMOS_RVT)                           XI0/XI1/XI4/XI1/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 63                                                     d: XI0/net13
+         b: VSS                                                    b: VSS
+         g: 60                                                     ** no similar net **
+         ** 83 **                                                  g: XI0/XI1/XI4/net12
+
+--------------------------------------------------------------------------------------------------------------
+
+       M247(2.666,1.755)  MN(NMOS_RVT)                           XI0/XI0/XI4/XI1/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 64                                                     d: XI0/net12
+         b: VSS                                                    b: VSS
+         g: 61                                                     ** no similar net **
+         ** 84 **                                                  g: XI0/XI0/XI4/net12
+
+--------------------------------------------------------------------------------------------------------------
+
+       M250(2.720,0.648)  MN(NMOS_RVT)                           XI0/XI2/XI0/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 123                                                    d: XI0/XI2/XI0/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: 63                                                     ** XI0/net13 **
+         ** 67 **                                                  g: XI0/XI2/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M252(2.720,1.269)  MN(NMOS_RVT)                           XI1/XI0/XI1/XNAND/MM0  MN(NMOS_RVT)
+         s: VSS                                                    s: VSS
+         d: 124                                                    d: XI1/XI0/XI1/XNAND/net1
+         b: VSS                                                    b: VSS
+         g: 64                                                     ** XI0/net12 **
+         ** 26 **                                                  g: UP_MULT<1>
+
+--------------------------------------------------------------------------------------------------------------
+
+       M255(2.774,0.648)  MN(NMOS_RVT)                           XI0/XI0/XI0/XNAND/Mnmos  MN(NMOS_RVT)
+         d: 72                                                     d: XI0/XI0/XI0/net1
+         b: VSS                                                    b: VSS
+         g: 66                                                     ** XI0/XI0/net1 **
+         s: 123                                                    ** XI0/XI2/XI0/XNAND/net1 **
+         ** 63 **                                                  g: XI0/net13
+         ** 114 **                                                 s: XI0/XI0/XI0/XNAND/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M256(2.774,1.269)  MN(NMOS_RVT)                           XI0/XI2/XI0/XNAND/Mnmos  MN(NMOS_RVT)
+         d: 73                                                     d: XI0/XI2/XI0/net1
+         b: VSS                                                    b: VSS
+         g: 67                                                     ** XI0/XI2/net1 **
+         s: 124                                                    ** XI1/XI0/XI1/XNAND/net1 **
+         ** 64 **                                                  g: XI0/net12
+         ** 123 **                                                 s: XI0/XI2/XI0/XNAND/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M273(3.152,0.513)  MN(NMOS_RVT)                           XI0/XI1/XI3/MMM2  MN(NMOS_RVT)
+         s: 68                                                     d: XI0/XI1/XI3/net045
+         d: 139                                                    s: XI0/XI1/XI3/net060
+         b: VSS                                                    b: VSS
+         g: 62                                                     ** XI0/XI1/net1 **
+         ** CIN_1 **                                               g: CIN_1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M278(3.206,0.513)  MN(NMOS_RVT)                           XI0/XI1/XI3/MMM3  MN(NMOS_RVT)
+         s: 139                                                    d: XI0/XI1/XI3/net060
+         d: VSS                                                    s: VSS
+         b: VSS                                                    b: VSS
+         g: CIN_1                                                  ** CIN_1 **
+         ** 62 **                                                  g: XI0/XI1/net1
+
+--------------------------------------------------------------------------------------------------------------
+
+       M284(3.314,0.027)  MN(NMOS_RVT)                           XI0/XI0/XI2/MMM13  MN(NMOS_RVT)
+         s: VSS                                                    d: VSS
+         d: 66                                                     s: XI0/XI0/net1
+         b: VSS                                                    b: VSS
+         g: 83                                                     ** XI0/XI1/XI4/net12 **
+         ** no similar net **                                      g: XI0/XI0/XI2/xor
+
+--------------------------------------------------------------------------------------------------------------
+
+       M286(3.314,0.648)  MN(NMOS_RVT)                           XI0/XI2/XI2/MMM13  MN(NMOS_RVT)
+         s: VSS                                                    d: VSS
+         d: 67                                                     s: XI0/XI2/net1
+         b: VSS                                                    b: VSS
+         g: 84                                                     ** XI0/XI0/XI4/net12 **
+         ** no similar net **                                      g: XI0/XI2/XI2/xor
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

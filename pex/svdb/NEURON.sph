@@ -1,0 +1,73 @@
+# SVDB: Source Placement Hierarchy (sph) (File format 1)
+# SVDB: Layout Primary NEURON
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Sat Dec 10 20:07:44 2022
+# SVDB: GDSII -0 (none) (none)
+# SVDB: SNL -0 (none) (none)
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: 
+# SVDB: End of header.
+% INV 4
+MM0  MN  4
+MM1  MP  4
+% INV_2_4 4
+MM0  MN  4
+MM1  MP  4
+% NAND2 5
+MM0  MN  4
+Mnmos  MN  4
+MM1  MP  4
+Mpmos  MP  4
+% NOR2 5
+Mnmos  MN  4
+MM0  MN  4
+MM1  MP  4
+Mpmos  MP  4
+% XOR2 5
+MMM12  MP  4
+MMM0  MP  4
+MMM9  MP  4
+MMM1  MP  4
+MMM10  MP  4
+MMM11  MP  4
+MMM13  MN  4
+MMM4  MN  4
+MMM6  MN  4
+MMM2  MN  4
+MMM5  MN  4
+MMM3  MN  4
+% AND2 5
+XNAND  NAND2  5
+XI0  INV_2_4  4
+% OR2 5
+XI0  NOR2  5
+XI1  INV_2_4  4
+% ADD1 7
+XI1  AND2  5
+XI0  AND2  5
+XI3  XOR2  5
+XI2  XOR2  5
+XI4  OR2  5
+% MULTIPLIER 8
+XI14  AND2  5
+XI13  AND2  5
+XI15  XOR2  5
+% MUX 8
+XI1  AND2  5
+XI0  AND2  5
+XI3  INV  4
+XI2  INV  4
+% ADD2 10
+XI1  ADD1  7
+XI0  ADD1  7
+% ADD3 13
+XI2  ADD1  7
+XI0  ADD1  7
+XI1  ADD1  7
+% NEURON 19
+XI0  ADD3  13
+XI1  ADD2  10
+XI2  MUX  8
+XI4  MULTIPLIER  8
+XI3  MULTIPLIER  8
