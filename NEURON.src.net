@@ -1,0 +1,205 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: NEURON
+* View Name:     schematic
+* Netlisted on:  Dec 14 17:55:45 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+Mnmos OUT IN<1> net1 VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos OUT IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_4_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_4_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=108.00n l=20n nfin=4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    AND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+XNAND IN<0> IN<1> net1 VDD VSS / NAND2
+XI1 net1 OUT VDD VSS / INV_4_4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    XOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+MMM12 VDD xor OUT VDD pmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM0 net045 IN<0> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM9 xor net045 VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM1 net045 IN<1> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM10 xor IN<1> net059 VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM11 net059 IN<0> VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM13 VSS xor OUT VSS nmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM4 net049 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM6 xor net045 net049 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM2 net045 IN<1> net060 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM5 net049 IN<1> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM3 net060 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+Mnmos OUT IN<1> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM0 OUT IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> net2 VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos net2 IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_2_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_2_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    OR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+XI0 IN<0> IN<1> net12 VDD VSS / NOR2
+XI1 net12 OUT VDD VSS / INV_2_4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    ADD1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD1 CIN COUT IN<0> IN<1> SUM VDD VSS
+*.PININFO CIN:I IN<0>:I IN<1>:I COUT:O SUM:O VDD:B VSS:B
+XI1 IN<0> IN<1> net2 VDD VSS / AND2
+XI0 net1 CIN net3 VDD VSS / AND2
+XI3 net1 CIN SUM VDD VSS / XOR2
+XI2 IN<0> IN<1> net1 VDD VSS / XOR2
+XI4 net3 net2 COUT VDD VSS / OR2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    ADD3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD3 CIN COUT IN_0<2> IN_0<1> IN_0<0> IN_1<2> IN_1<1> IN_1<0> SUM<2> 
++ SUM<1> SUM<0> VDD VSS
+*.PININFO CIN:I IN_0<2>:I IN_0<1>:I IN_0<0>:I IN_1<2>:I IN_1<1>:I IN_1<0>:I 
+*.PININFO COUT:O SUM<2>:O SUM<1>:O SUM<0>:O VDD:B VSS:B
+XI2 net12 COUT IN_0<2> IN_1<2> SUM<2> VDD VSS / ADD1
+XI0 net13 net12 IN_0<1> IN_1<1> SUM<1> VDD VSS / ADD1
+XI1 CIN net13 IN_0<0> IN_1<0> SUM<0> VDD VSS / ADD1
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    ADD2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD2 CIN COUT IN_0<1> IN_0<0> IN_1<1> IN_1<0> SUM<1> SUM<0> VDD VSS
+*.PININFO CIN:I IN_0<1>:I IN_0<0>:I IN_1<1>:I IN_1<0>:I COUT:O SUM<1>:O 
+*.PININFO SUM<0>:O VDD:B VSS:B
+XI1 CIN net2 IN_0<0> IN_1<0> SUM<0> VDD VSS / ADD1
+XI0 net2 COUT IN_0<1> IN_1<1> SUM<1> VDD VSS / ADD1
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MUX IN<2> IN<1> IN<0> OUT<2> OUT<1> OUT<0> VDD VSS
+*.PININFO IN<2>:I IN<1>:I IN<0>:I OUT<2>:O OUT<1>:O OUT<0>:O VDD:B VSS:B
+XI1 IN<1> net4 OUT<0> VDD VSS / AND2
+XI0 net4 IN<0> OUT<1> VDD VSS / AND2
+XI4 IN<2> net4 VDD VSS / INV_4_4
+XI5 VDD OUT<2> VDD VSS / INV_4_4
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    MULTIPLIER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MULTIPLIER VDD VSS W<1> W<0> X<1> X<0> Y<1> Y<0>
+*.PININFO W<1>:I W<0>:I X<1>:I X<0>:I Y<1>:O Y<0>:O VDD:B VSS:B
+XI14 net1 Y<0> Y<1> VDD VSS / AND2
+XI13 X<0> W<0> Y<0> VDD VSS / AND2
+XI15 X<1> W<1> net1 VDD VSS / XOR2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NEURON
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NEURON CIN_0 CIN_1 COUT VDD VSS W0_0<1> W0_0<0> W1_0<1> W1_0<0> 
++ W2_0<2> W2_0<1> W2_0<0> X_0<1> X_0<0> X_1<1> X_1<0> Z<2> Z<1> Z<0>
+*.PININFO CIN_0:I CIN_1:I W0_0<1>:I W0_0<0>:I W1_0<1>:I W1_0<0>:I W2_0<2>:I 
+*.PININFO W2_0<1>:I W2_0<0>:I X_0<1>:I X_0<0>:I X_1<1>:I X_1<0>:I COUT:O 
+*.PININFO Z<2>:O Z<1>:O Z<0>:O VDD:B VSS:B
+XI0 CIN_1 COUT IN_0<2> IN_0<1> IN_0<0> W2_0<2> W2_0<1> W2_0<0> net1<0> net1<1> 
++ net1<2> VDD VSS / ADD3
+XI1 CIN_0 IN_0<2> UP_MULT<1> UP_MULT<0> BOTTOM_MULT<1> BOTTOM_MULT<0> IN_0<1> 
++ IN_0<0> VDD VSS / ADD2
+XI2 net1<0> net1<1> net1<2> Z<2> Z<1> Z<0> VDD VSS / MUX
+XI4 VDD VSS W1_0<1> W1_0<0> X_1<1> X_1<0> BOTTOM_MULT<1> BOTTOM_MULT<0> / 
++ MULTIPLIER
+XI3 VDD VSS W0_0<1> W0_0<0> X_0<1> X_0<0> UP_MULT<1> UP_MULT<0> / MULTIPLIER
+.ENDS
+

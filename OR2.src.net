@@ -1,0 +1,54 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: OR2
+* View Name:     schematic
+* Netlisted on:  Dec 14 18:36:38 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+Mnmos OUT IN<1> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM0 OUT IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> net2 VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos net2 IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_2_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_2_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    OR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+XI0 IN<0> IN<1> net12 VDD VSS / NOR2
+XI1 net12 OUT VDD VSS / INV_2_4
+.ENDS
+

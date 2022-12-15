@@ -1,0 +1,9 @@
+mgc_rve_context_lcv "ECE555" "NEURON" "layout" 4000
+mgc_rve_highlight_index 0 "rve" "#0000FFFF0000"
+mgc_rve_property "w" 8.1e-08  "l" 2e-08  "nfin" 3  "model" "pmos_rvt"
+mgc_rve_layer "<ENCRYPTED_LAYER_41>"
+mr 2.666 0.999 2.686 1.08
+mgc_rve_property "w" 8.1e-08  "l" 2e-08  "nfin" 3  "model" "pmos_rvt"
+mgc_rve_layer "<ENCRYPTED_LAYER_41>"
+mr 2.72 0.999 2.74 1.08
+mgc_rve_zoom 2.65025 0.98175 2.75575 1.09725 1

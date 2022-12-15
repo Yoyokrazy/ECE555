@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1671060253 1671060254
+lvs_ExtOutFile RUNDIR /filespace/k/krthrane/ECE555
+lvs_ExtOutFile RULES_FILE /filespace/k/krthrane/ECE555/__lvsRules_calibre_asap7.rul__
+lvs_ExtInfoExtSummary {0 0 0 0 2 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /filespace/k/krthrane/ECE555/INV_4_4.sp
+lvs_ExtOutFile EXTRACTION_REPORT INV_4_4.lvs.report.ext

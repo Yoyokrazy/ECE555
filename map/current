@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "OR2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/filespace/k/krthrane/ECE555"
+ )
+( model
+( "ECE555/NOR2/schematic" "NOR2" )
+( "ECE555/INV_2_4/schematic" "INV_2_4" )
+( "ECE555/OR2/schematic" "OR2" )
+ )
+( "OR2" "ihnl/cds2/map" )
+( "INV_2_4" "ihnl/cds1/map" )
+( "NOR2" "ihnl/cds0/map" )
+ )

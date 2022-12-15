@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/MULTIPLIER.dv
+dv_start matched                                  
+dv_cell {MULTIPLIER} {MULTIPLIER} matched
+dv_obj_count -transformed_nets {13 13} -transformed_inst {9 9} -transformed_port {8 8}
+dv_end

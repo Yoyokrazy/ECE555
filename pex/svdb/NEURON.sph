@@ -1,6 +1,6 @@
 # SVDB: Source Placement Hierarchy (sph) (File format 1)
 # SVDB: Layout Primary NEURON
-# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Sat Dec 10 20:07:44 2022
+# SVDB: Rules -0 _rcxControl_calibre_asap7.rul_ Thu Dec 15 13:38:57 2022
 # SVDB: GDSII -0 (none) (none)
 # SVDB: SNL -0 (none) (none)
 # SVDB: 
@@ -8,17 +8,17 @@
 # SVDB: 
 # SVDB: 
 # SVDB: End of header.
-% INV 4
-MM0  MN  4
-MM1  MP  4
 % INV_2_4 4
 MM0  MN  4
 MM1  MP  4
-% NAND2 5
+% INV_4_4 4
 MM0  MN  4
+MM1  MP  4
+% NAND2 5
 Mnmos  MN  4
 MM1  MP  4
 Mpmos  MP  4
+MM0  MN  4
 % NOR2 5
 Mnmos  MN  4
 MM0  MN  4
@@ -39,7 +39,7 @@ MMM5  MN  4
 MMM3  MN  4
 % AND2 5
 XNAND  NAND2  5
-XI0  INV_2_4  4
+XI1  INV_4_4  4
 % OR2 5
 XI0  NOR2  5
 XI1  INV_2_4  4
@@ -56,8 +56,8 @@ XI15  XOR2  5
 % MUX 8
 XI1  AND2  5
 XI0  AND2  5
-XI3  INV  4
-XI2  INV  4
+XI4  INV_4_4  4
+XI5  INV_4_4  4
 % ADD2 10
 XI1  ADD1  7
 XI0  ADD1  7

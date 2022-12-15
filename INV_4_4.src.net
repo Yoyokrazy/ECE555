@@ -1,0 +1,28 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: INV_4_4
+* View Name:     schematic
+* Netlisted on:  Dec 14 17:24:12 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV_4_4
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV_4_4 IN OUT VDD VSS
+*.PININFO IN:I OUT:O VDD:B VSS:B
+MM0 OUT IN VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN VDD VDD pmos_rvt w=108.00n l=20n nfin=4
+.ENDS
+

@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 06/22/2022 16:16 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.26 
-Started at: 09-Dec-2022  02:13:39
+Started at: 14-Dec-2022  18:11:52
 User Name : krthrane
-Host Name : tux-135
+Host Name : tux-138
 Directory : /filespace/k/krthrane/ECE555
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -29,14 +29,13 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-223): 1. Translating cellView ECE555/ADD3/layout as STRUCTURE ADD3.
-WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
 	Array Instances:                        0
-	Polygons:                               30
+	Polygons:                               36
 	Paths:                                  0
-	Rectangles:                             967
+	Rectangles:                             1436
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -52,9 +51,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   40
+	Text:                                   56
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.2s   User Time: 0.0s   CPU Time: 0.0s   Peak VM: 2740KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
+Elapsed Time: 0.1s   User Time: 0.0s   CPU Time: 0.0s   Peak VM: 2736KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -1,0 +1,1368 @@
+NEURON 10000
+GEOMETRY.NONORTHOGONAL
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.A.1A
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.A.1B
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+WELL.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+FIN.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+FIN.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+FIN.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+FIN.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.ACTIVE.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.ACTIVE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.ACTIVE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GATE.ACTIVE.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.FIN.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.S.2A
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.S.2B
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.WELL.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.ACTIVE.WELL.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.WELL.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.ACTIVE.WELL.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.A.1A
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.A.1B
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.ACTIVE.A.2A
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.ACTIVE.A.2B
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.ACTIVE.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+ACTIVE.LUP.1
+68 68 1 Dec 14 17:55:35 2022                   
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+p 1 4
+CN NEURON c 1 0 0 1 0 0 0
+830 2430
+2070 2430
+2070 2970
+830 2970
+p 2 4
+830 3780
+2610 3780
+2610 4590
+830 4590
+p 3 4
+830 8640
+2070 8640
+2070 9180
+830 9180
+p 4 4
+830 9990
+2610 9990
+2610 10800
+830 10800
+p 5 4
+2990 1890
+3690 1890
+3690 2970
+2990 2970
+p 6 4
+2990 8100
+3690 8100
+3690 9180
+2990 9180
+p 7 6
+3530 3780
+5850 3780
+5850 4590
+4610 4590
+4610 4320
+3530 4320
+p 8 6
+3530 9990
+5850 9990
+5850 10800
+4610 10800
+4610 10530
+3530 10530
+p 9 4
+5150 2430
+6390 2430
+6390 2970
+5150 2970
+p 10 4
+5150 8640
+6390 8640
+6390 9180
+5150 9180
+p 11 4
+7310 1890
+8010 1890
+8010 2970
+7310 2970
+p 12 4
+7310 8100
+8010 8100
+8010 9180
+7310 9180
+p 13 4
+9470 2430
+10710 2430
+10710 2970
+9470 2970
+p 14 4
+9470 3780
+11250 3780
+11250 4590
+9470 4590
+p 15 4
+9470 8640
+10710 8640
+10710 9180
+9470 9180
+p 16 4
+9470 9990
+11250 9990
+11250 10800
+9470 10800
+p 17 4
+10550 14850
+11250 14850
+11250 15930
+10550 15930
+p 18 4
+10550 16470
+11250 16470
+11250 17550
+10550 17550
+p 19 4
+11630 1890
+12330 1890
+12330 2970
+11630 2970
+p 20 4
+11630 8100
+12330 8100
+12330 9180
+11630 9180
+p 21 4
+12170 15390
+13410 15390
+13410 15930
+12170 15930
+p 22 4
+12170 16470
+13410 16470
+13410 17010
+12170 17010
+p 23 6
+12170 3780
+14490 3780
+14490 4590
+13250 4590
+13250 4320
+12170 4320
+p 24 6
+12170 9990
+14490 9990
+14490 10800
+13250 10800
+13250 10530
+12170 10530
+p 25 4
+13790 2430
+15030 2430
+15030 2970
+13790 2970
+p 26 4
+13790 8640
+15030 8640
+15030 9180
+13790 9180
+p 27 4
+15070 14850
+15770 14850
+15770 15930
+15070 15930
+p 28 4
+15070 16470
+15770 16470
+15770 17550
+15070 17550
+p 29 4
+15410 3780
+17190 3780
+17190 4590
+15410 4590
+p 30 4
+15410 9990
+17190 9990
+17190 10800
+15410 10800
+p 31 4
+15950 1890
+16650 1890
+16650 2970
+15950 2970
+p 32 4
+15950 8100
+16650 8100
+16650 9180
+15950 9180
+p 33 4
+17570 2430
+18810 2430
+18810 2970
+17570 2970
+p 34 4
+17570 8640
+18810 8640
+18810 9180
+17570 9180
+p 35 6
+18110 3780
+20430 3780
+20430 4590
+19190 4590
+19190 4320
+18110 4320
+p 36 6
+18110 9990
+20430 9990
+20430 10800
+19190 10800
+19190 10530
+18110 10530
+p 37 4
+19730 2430
+20430 2430
+20430 2970
+19730 2970
+p 38 4
+19730 8640
+20430 8640
+20430 9180
+19730 9180
+p 39 4
+22630 2430
+23870 2430
+23870 2970
+22630 2970
+p 40 4
+22630 3780
+24410 3780
+24410 4590
+22630 4590
+p 41 4
+22630 8640
+23870 8640
+23870 9180
+22630 9180
+p 42 4
+22630 9990
+24410 9990
+24410 10800
+22630 10800
+p 43 4
+22630 14850
+23870 14850
+23870 15390
+22630 15390
+p 44 4
+22630 16200
+24410 16200
+24410 17010
+22630 17010
+p 45 4
+24790 1890
+25490 1890
+25490 2970
+24790 2970
+p 46 4
+24790 8100
+25490 8100
+25490 9180
+24790 9180
+p 47 4
+24790 14310
+25490 14310
+25490 15390
+24790 15390
+p 48 6
+25330 3780
+27650 3780
+27650 4590
+26410 4590
+26410 4320
+25330 4320
+p 49 6
+25330 9990
+27650 9990
+27650 10800
+26410 10800
+26410 10530
+25330 10530
+p 50 6
+25330 16200
+27650 16200
+27650 17010
+26410 17010
+26410 16740
+25330 16740
+p 51 4
+26950 2430
+28190 2430
+28190 2970
+26950 2970
+p 52 4
+26950 8640
+28190 8640
+28190 9180
+26950 9180
+p 53 4
+26950 14850
+28190 14850
+28190 15390
+26950 15390
+p 54 4
+28570 3780
+30350 3780
+30350 4590
+28570 4590
+p 55 4
+28570 9990
+30350 9990
+30350 10800
+28570 10800
+p 56 4
+28570 16200
+30350 16200
+30350 17010
+28570 17010
+p 57 4
+29110 1890
+29810 1890
+29810 2970
+29110 2970
+p 58 4
+29110 8100
+29810 8100
+29810 9180
+29110 9180
+p 59 4
+29110 14310
+29810 14310
+29810 15390
+29110 15390
+p 60 4
+30730 2430
+31970 2430
+31970 2970
+30730 2970
+p 61 4
+30730 8640
+31970 8640
+31970 9180
+30730 9180
+p 62 4
+30730 14850
+31970 14850
+31970 15390
+30730 15390
+p 63 6
+31270 3780
+33590 3780
+33590 4590
+32350 4590
+32350 4320
+31270 4320
+p 64 6
+31270 9990
+33590 9990
+33590 10800
+32350 10800
+32350 10530
+31270 10530
+p 65 6
+31270 16200
+33590 16200
+33590 17010
+32350 17010
+32350 16740
+31270 16740
+p 66 4
+32890 2430
+33590 2430
+33590 2970
+32890 2970
+p 67 4
+32890 8640
+33590 8640
+33590 9180
+32890 9180
+p 68 4
+32890 14850
+33590 14850
+33590 15390
+32890 15390
+GCUT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.ACTIVE.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.GATE.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+GCUT.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.ACTIVE.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.ACTIVE.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.NSELECT.ACTIVE.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.NSELECT.ACTIVE.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.ACTIVE.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.ACTIVE.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.PSELECT.ACTIVE.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.PSELECT.ACTIVE.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+PSELECT.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+NSELECT.PSELECT.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.ACTIVE.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.ACTIVE.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SLVT.ACTIVE.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SLVT.ACTIVE.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SLVT.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.ACTIVE.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.ACTIVE.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LVT.ACTIVE.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LVT.ACTIVE.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LVT.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.ACTIVE.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.ACTIVE.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SRAMVT.ACTIVE.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SRAMVT.ACTIVE.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAMVT.GATE.EX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+VT.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+DUMMY.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+DUMMY.CHANNEL.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+DUMMY.CHANNEL.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+DUMMY.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SDT.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.GATE.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.ACTIVE.OV.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.LISD.OV.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SDT.ACTIVE.OV.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.SDT.LISD.OV.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.GATE.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.ACTIVE.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.ACTIVE.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SDT.LISD.AUX.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LISD.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LISD.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LISD.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LISD.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LISD.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LISD.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LISD.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.LISD.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.LISD.S.7
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.SDT.S.8
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.S.9A
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.S.9B
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.S.10
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GCUT.S.11
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.LISD.A.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.A.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LIG.GATE.A.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LIG.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.GATE.EX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+LIG.LISD.OV.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+SRAM.LIG.GATE.OV.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.M1.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.LISD.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.LISD.EN.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.LIG.EN.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.LIG.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.LIG.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V0.M1.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M1.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M2.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M3.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.M1.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.M2.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V1.M2.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.M2.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.M3.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V2.M3.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.M3.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.M4.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V3.M4.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M4.AUX.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M5.AUX.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M6.AUX.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.AUX.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M7.AUX.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.M4.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.M5.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V4.M5.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.M5.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.M6.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V5.M6.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.M6.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.M7.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V6.M7.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.M7.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.M8.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V7.M8.AUX.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.7
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.S.8
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M8.L.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.W.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.W.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.W.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.W.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.3
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.4
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.5
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.6
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.7
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.S.8
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.A.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+M9.L.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.M8.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.M9.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V8.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.W.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.S.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.S.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.M9.EN.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.PAD.EN.2
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__
+V9.AUX.1
+0 0 1 Dec 14 17:55:35 2022                     
+Rule File Pathname: /filespace/k/krthrane/ECE555/__drcRules_calibre_asap7.rul__

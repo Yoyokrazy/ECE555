@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+ECE555/NOR2/schematic NOR2
+ECE555/INV_2_4/schematic INV_2_4
+ECE555/OR2/schematic OR2
+$endmodel
+$net
+$endnet
+$param
+$endparam

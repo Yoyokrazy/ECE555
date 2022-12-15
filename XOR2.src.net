@@ -1,0 +1,38 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: XOR2
+* View Name:     schematic
+* Netlisted on:  Dec 14 18:21:08 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    XOR2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+MMM12 VDD xor OUT VDD pmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM0 net045 IN<0> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM9 xor net045 VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM1 net045 IN<1> VDD VDD pmos_rvt w=5.4E-08 l=2E-08 nfin=2
+MMM10 xor IN<1> net059 VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM11 net059 IN<0> VDD VDD pmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM13 VSS xor OUT VSS nmos_rvt w=1.62E-07 l=2E-08 nfin=6
+MMM4 net049 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM6 xor net045 net049 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM2 net045 IN<1> net060 VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM5 net049 IN<1> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+MMM3 net060 IN<0> VSS VSS nmos_rvt w=8.1E-08 l=2E-08 nfin=3
+.ENDS
+

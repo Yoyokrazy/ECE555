@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 06/22/2022 16:16 (sjfhw317) $
           : sub-version  IC6.1.8-64b.500.26 
-Started at: 09-Dec-2022  02:13:39
+Started at: 14-Dec-2022  18:11:52
 User Name : krthrane
-Host Name : tux-135
+Host Name : tux-138
 Directory : /filespace/k/krthrane/ECE555
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-ECE555/ADD3/layout              0        0       30       967    0      0         40     0             0      0     0     0       0       
+ECE555/ADD3/layout              0        0       36       1436   0      0         56     0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -30,32 +30,32 @@ ECE555/ADD3/layout              0        0          0          0          0     
 Cadence         Cadence         Stream  Stream   
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
-well            pin             1       251       0        0        0        12       0             0    0   0   0     0      0      
-V0              drawing         18      0         0        214      0        0        0             0    0   0   0     0      0      
-M1              drawing         19      0         25       64       0        0        0             0    0   0   0     0      0      
-Pselect         drawing         13      0         0        12       0        0        0             0    0   0   0     0      0      
-BOUNDARY        drawing         100     0         0        12       0        0        0             0    0   0   0     0      0      
-SDT             drawing         88      0         0        122      0        0        0             0    0   0   0     0      0      
-Active          drawing         11      0         5        29       0        0        0             0    0   0   0     0      0      
-Nselect         drawing         12      0         0        12       0        0        0             0    0   0   0     0      0      
-fin             drawing         2       0         0        132      0        0        0             0    0   0   0     0      0      
-LISD            drawing         17      0         0        122      0        0        0             0    0   0   0     0      0      
-LIG             drawing         16      0         0        51       0        0        0             0    0   0   0     0      0      
-M1              pin             19      251       0        0        0        16       0             0    0   0   0     0      0      
-M2              drawing         20      0         0        32       0        0        0             0    0   0   0     0      0      
-Gate            drawing         7       0         0        82       0        0        0             0    0   0   0     0      0      
-P_SUB           pin             3       251       0        0        0        12       0             0    0   0   0     0      0      
-GCut            drawing         10      0         0        37       0        0        0             0    0   0   0     0      0      
-V1              drawing         21      0         0        34       0        0        0             0    0   0   0     0      0      
-well            drawing         1       0         0        12       0        0        0             0    0   0   0     0      0      
+well            pin             1       251       0        0        0        15       0             0    0   0   0     0      0      
+V0              drawing         18      0         0        288      0        0        0             0    0   0   0     0      0      
+M1              drawing         19      0         30       134      0        0        0             0    0   0   0     0      0      
+Pselect         drawing         13      0         0        15       0        0        0             0    0   0   0     0      0      
+BOUNDARY        drawing         100     0         0        9        0        0        0             0    0   0   0     0      0      
+SDT             drawing         88      0         0        186      0        0        0             0    0   0   0     0      0      
+Active          drawing         11      0         6        54       0        0        0             0    0   0   0     0      0      
+Nselect         drawing         12      0         0        15       0        0        0             0    0   0   0     0      0      
+fin             drawing         2       0         0        177      0        0        0             0    0   0   0     0      0      
+LISD            drawing         17      0         0        186      0        0        0             0    0   0   0     0      0      
+LIG             drawing         16      0         0        78       0        0        0             0    0   0   0     0      0      
+M1              pin             19      251       0        0        0        26       0             0    0   0   0     0      0      
+M2              drawing         20      0         0        42       0        0        0             0    0   0   0     0      0      
+Gate            drawing         7       0         0        135      0        0        0             0    0   0   0     0      0      
+P_SUB           pin             3       251       0        0        0        15       0             0    0   0   0     0      0      
+GCut            drawing         10      0         0        57       0        0        0             0    0   0   0     0      0      
+V1              drawing         21      0         0        45       0        0        0             0    0   0   0     0      0      
+well            drawing         1       0         0        15       0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
 	Scalar Instances:		0
 	Array Instances:		0
-	Polygons:			30
+	Polygons:			36
 	Paths:				0
-	Rectangles:			967
+	Rectangles:			1436
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -71,7 +71,7 @@ Summary of Objects Translated:
 	Custom Vias:			0
 	CdsGen Vias:			0
 	Pathsegs:			0
-	Text:				40
+	Text:				56
 	TextDisplay:		0
 	Cells:				1
 Design Libraries: 

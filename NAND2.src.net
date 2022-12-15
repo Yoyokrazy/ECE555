@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: NAND2
+* View Name:     schematic
+* Netlisted on:  Dec 14 18:19:46 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 IN<0> IN<1> OUT VDD VSS
+*.PININFO IN<0>:I IN<1>:I OUT:O VDD:B VSS:B
+Mnmos OUT IN<1> net1 VSS nmos_rvt w=108.00n l=20n nfin=4
+MM1 OUT IN<1> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+Mpmos OUT IN<0> VDD VDD pmos_rvt w=54.0n l=20n nfin=2
+MM0 net1 IN<0> VSS VSS nmos_rvt w=108.00n l=20n nfin=4
+.ENDS
+

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1671063392 1671063392
+lvs_ExtOutFile RUNDIR /filespace/k/krthrane/ECE555
+lvs_ExtOutFile RULES_FILE /filespace/k/krthrane/ECE555/__lvsRules_calibre_asap7.rul__
+lvs_ExtInfoExtSummary {0 0 0 0 3 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /filespace/k/krthrane/ECE555/MULTIPLIER.sp
+lvs_ExtOutFile EXTRACTION_REPORT MULTIPLIER.lvs.report.ext

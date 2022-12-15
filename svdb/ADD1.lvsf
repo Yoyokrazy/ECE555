@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /filespace/k/krthrane/ECE555
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT ADD1.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /filespace/k/krthrane/ECE555/ADD1.src.net
+lvs_LvsOutFile RULES_FILE /filespace/k/krthrane/ECE555/__lvsRules_calibre_asap7.rul__
+lvs_LvsRunTimes 1671062440 1671062440
