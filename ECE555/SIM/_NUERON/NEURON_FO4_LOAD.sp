@@ -2,8 +2,8 @@
 ** Cell name: NEURON
 ** View name: schematic
 .INCLUDE load_buffer_cell.pex.netlist
-** .INCLUDE NEURON.pex.netlist
-.INCLUDE NEURON
+.INCLUDE NEURON.pex.netlist
+**.INCLUDE NEURON
 
 ** Library name: ECE555
 ** Cell name: NEURON_FO4
